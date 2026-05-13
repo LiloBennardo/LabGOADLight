@@ -1,0 +1,91 @@
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> netstat -ano
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       864
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1433           0.0.0.0:0              LISTENING       3576
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       64
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:5986           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       468
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       1152
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1524
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       2084
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       616
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       2564
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING       2136
+  TCP    0.0.0.0:49671          0.0.0.0:0              LISTENING       600
+  TCP    0.0.0.0:49681          0.0.0.0:0              LISTENING       616
+  TCP    0.0.0.0:61810          0.0.0.0:0              LISTENING       3576
+  TCP    10.0.2.15:139          0.0.0.0:0              LISTENING       4
+  TCP    10.0.2.15:49778        98.66.133.184:443      ESTABLISHED     3024
+  TCP    10.0.2.15:50167        20.42.65.85:443        TIME_WAIT       0
+  TCP    192.168.56.22:139      0.0.0.0:0              LISTENING       4
+  TCP    192.168.56.22:3389     192.168.56.11:61647    ESTABLISHED     64
+  TCP    192.168.56.22:5985     192.168.56.1:46216     TIME_WAIT       0
+  TCP    192.168.56.22:5985     192.168.56.1:46226     ESTABLISHED     4
+  TCP    192.168.56.22:50168    192.168.56.11:135      ESTABLISHED     616
+  TCP    192.168.56.22:50169    192.168.56.11:49675    ESTABLISHED     616
+  TCP    [::]:80                [::]:0                 LISTENING       4
+  TCP    [::]:135               [::]:0                 LISTENING       864
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:1433              [::]:0                 LISTENING       3576
+  TCP    [::]:3389              [::]:0                 LISTENING       64
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+  TCP    [::]:5986              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49664             [::]:0                 LISTENING       468
+  TCP    [::]:49665             [::]:0                 LISTENING       1152
+  TCP    [::]:49666             [::]:0                 LISTENING       1524
+  TCP    [::]:49667             [::]:0                 LISTENING       2084
+  TCP    [::]:49668             [::]:0                 LISTENING       616
+  TCP    [::]:49669             [::]:0                 LISTENING       2564
+  TCP    [::]:49670             [::]:0                 LISTENING       2136
+  TCP    [::]:49671             [::]:0                 LISTENING       600
+  TCP    [::]:49681             [::]:0                 LISTENING       616
+  TCP    [::]:61810             [::]:0                 LISTENING       3576
+  UDP    0.0.0.0:123            *:*                                    344
+  UDP    0.0.0.0:500            *:*                                    2112
+  UDP    0.0.0.0:3389           *:*                                    64
+  UDP    0.0.0.0:4500           *:*                                    2112
+  UDP    0.0.0.0:5353           *:*                                    1116
+  UDP    0.0.0.0:5355           *:*                                    1116
+  UDP    10.0.2.15:137          *:*                                    4
+  UDP    10.0.2.15:138          *:*                                    4
+  UDP    127.0.0.1:51541        *:*                                    1336
+  UDP    127.0.0.1:60202        *:*                                    1228
+  UDP    127.0.0.1:65288        *:*                                    616
+  UDP    192.168.56.22:137      *:*                                    4
+  UDP    192.168.56.22:138      *:*                                    4
+  UDP    [::]:123               *:*                                    344
+  UDP    [::]:500               *:*                                    2112
+  UDP    [::]:3389              *:*                                    64
+  UDP    [::]:4500              *:*                                    2112
+  UDP    [::]:5353              *:*                                    1116
+  UDP    [::]:5355              *:*                                    1116
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> arp -a
+
+Interface: 192.168.56.22 --- 0x6
+  Internet Address      Physical Address      Type
+  192.168.56.1          0a-00-27-00-00-00     dynamic
+  192.168.56.10         08-00-27-b3-08-65     dynamic
+  192.168.56.11         08-00-27-59-04-b4     dynamic
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+
+Interface: 10.0.2.15 --- 0x7
+  Internet Address      Physical Address      Type
+  10.0.2.2              52-54-00-12-35-02     dynamic
+  10.0.2.3              52-54-00-12-35-03     dynamic
+  10.0.2.255            ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> 

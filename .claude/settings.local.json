@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(pandoc --version)",
+      "Bash(python -c \"import markdown, weasyprint\")",
+      "Bash(python -c \"import markdown\")",
+      "Bash(python -c \"import weasyprint\")",
+      "Bash(python -c \"import md2pdf\")",
+      "Bash(ls \"/c/Program Files/Google/Chrome/Application/chrome.exe\" \"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" 2>&1)",
+      "Bash(python _md2html.py)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=\"GOAD_rapport_complet_v4.pdf\" \"file:///C:/Users/WavyCorp/Documents/GOAD/_rapport.html\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf=\"C:\\\\Users\\\\WavyCorp\\\\Documents\\\\GOAD\\\\GOAD_rapport_complet_v4.pdf\" \"file:///C:/Users/WavyCorp/Documents/GOAD/_rapport.html\")",
+      "Bash(file img/*)",
+      "Bash(python -c ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

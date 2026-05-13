@@ -1,0 +1,9 @@
+arya.stark
+sansa.stark
+brandon.stark
+rickon.stark
+hodor
+jon.snow
+samwell.tarly
+jeor.mormont
+sql_svc

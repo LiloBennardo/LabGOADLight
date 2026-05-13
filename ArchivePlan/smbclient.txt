@@ -1,0 +1,113 @@
+─(kali㉿kali)-[~/Desktop/GOAD]
+└─$ smbclient //192.168.56.11/SYSVOL \
+-U "north.sevenkingdoms.local/brandon.stark%iseedeadpeople" \
+-c "recurse ON; ls"
+  .                                   D        0  Wed Apr 29 19:28:57 2026
+  ..                                  D        0  Wed Apr 29 19:28:57 2026
+  north.sevenkingdoms.local          Dr        0  Wed Apr 29 19:28:57 2026
+
+\north.sevenkingdoms.local
+  .                                   D        0  Wed Apr 29 19:35:17 2026
+  ..                                  D        0  Wed Apr 29 19:35:17 2026
+  DfsrPrivate                      DHSr        0  Wed Apr 29 19:35:17 2026
+  Policies                            D        0  Wed Apr 29 20:09:50 2026
+  scripts                             D        0  Wed Apr 29 20:08:46 2026
+
+\north.sevenkingdoms.local\DfsrPrivate
+NT_STATUS_ACCESS_DENIED listing \north.sevenkingdoms.local\DfsrPrivate\*
+
+\north.sevenkingdoms.local\Policies
+  .                                   D        0  Wed Apr 29 20:09:50 2026
+  ..                                  D        0  Wed Apr 29 20:09:50 2026
+  {31B2F340-016D-11D2-945F-00C04FB984F9}      D        0  Wed Apr 29 19:29:10 2026
+  {6AC1786C-016F-11D2-945F-00C04fB984F9}      D        0  Wed Apr 29 19:29:10 2026
+  {8270AEB4-5437-4F26-9FC5-ECF4C6052C24}      D        0  Wed Apr 29 20:09:50 2026
+
+\north.sevenkingdoms.local\scripts
+  .                                   D        0  Wed Apr 29 20:08:46 2026
+  ..                                  D        0  Wed Apr 29 20:08:46 2026
+  script.ps1                          A      165  Wed Apr 29 20:08:42 2026
+  secret.ps1                          A      869  Wed Apr 29 20:08:45 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  GPT.INI                             A       22  Wed Apr 29 19:44:25 2026
+  MACHINE                             D        0  Wed Apr 29 19:29:10 2026
+  USER                                D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  GPT.INI                             A       22  Wed Apr 29 19:29:10 2026
+  MACHINE                             D        0  Wed Apr 29 19:29:10 2026
+  USER                                D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{8270AEB4-5437-4F26-9FC5-ECF4C6052C24}
+  .                                   D        0  Wed Apr 29 20:09:50 2026
+  ..                                  D        0  Wed Apr 29 20:09:50 2026
+  GPO.cmt                             A       32  Wed Apr 29 20:09:50 2026
+  GPT.INI                             A       64  Wed Apr 29 20:09:50 2026
+  Machine                             D        0  Wed Apr 29 20:09:50 2026
+  User                                D        0  Wed Apr 29 20:09:50 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  Microsoft                           D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\USER
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  Microsoft                           D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\USER
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{8270AEB4-5437-4F26-9FC5-ECF4C6052C24}\Machine
+  .                                   D        0  Wed Apr 29 20:09:50 2026
+  ..                                  D        0  Wed Apr 29 20:09:50 2026
+  Registry.pol                        A      200  Wed Apr 29 20:09:50 2026
+
+\north.sevenkingdoms.local\Policies\{8270AEB4-5437-4F26-9FC5-ECF4C6052C24}\User
+  .                                   D        0  Wed Apr 29 20:09:50 2026
+  ..                                  D        0  Wed Apr 29 20:09:50 2026
+  Registry.pol                        A      202  Wed Apr 29 20:09:50 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Microsoft
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  Windows NT                          D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\Microsoft
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  Windows NT                          D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Microsoft\Windows NT
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  SecEdit                             D        0  Wed Apr 29 19:44:25 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\Microsoft\Windows NT
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  SecEdit                             D        0  Wed Apr 29 19:29:10 2026
+
+\north.sevenkingdoms.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Microsoft\Windows NT\SecEdit
+  .                                   D        0  Wed Apr 29 19:44:25 2026
+  ..                                  D        0  Wed Apr 29 19:44:25 2026
+  GptTmpl.inf                         A     1192  Wed Apr 29 19:44:25 2026
+
+\north.sevenkingdoms.local\Policies\{6AC1786C-016F-11D2-945F-00C04fB984F9}\MACHINE\Microsoft\Windows NT\SecEdit
+  .                                   D        0  Wed Apr 29 19:29:10 2026
+  ..                                  D        0  Wed Apr 29 19:29:10 2026
+  GptTmpl.inf                         A     3764  Wed Apr 29 19:29:10 2026
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ 

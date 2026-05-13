@@ -1,0 +1,89 @@
+─$ nmap -T5 -sS -sV -O 192.168.56.0/24
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-04-30 05:44 -0400
+Nmap scan report for 192.168.56.1
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.15 (Ubuntu Linux; protocol 2.0)
+111/tcp  open  rpcbind 2-4 (RPC #100000)
+2049/tcp open  nfs     3-4 (RPC #100003)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.56.10
+Host is up (0.024s latency).
+Not shown: 985 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+80/tcp   open  http          Microsoft IIS httpd 10.0
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2026-04-30 09:44:34Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3269/tcp open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp open  ssl/wsmans?
+Aggressive OS guesses: Microsoft Windows 10 1909 - 2004 (94%), Microsoft Windows Server 2019 (93%), Microsoft Windows 11 24H2 - 25H2 (89%), Microsoft Windows Server 2022 (89%), Microsoft Windows 10 1709 - 22H2 (89%), Microsoft Windows Server 2012 R2 (89%), Microsoft Windows Server 2012 Data Center (88%), Microsoft Windows 10 1909 (87%), Microsoft Windows Server 2016 (87%), Microsoft Windows 10 1703 or Windows 11 21H2 - 23H2 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: KINGSLANDING; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.56.11
+Host is up (0.020s latency).
+Not shown: 986 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2026-04-30 09:44:34Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3269/tcp open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: sevenkingdoms.local, Site: Default-First-Site-Name)
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp open  ssl/wsmans?
+Aggressive OS guesses: Microsoft Windows 10 1909 - 2004 (94%), Microsoft Windows Server 2019 (92%), Microsoft Windows 11 24H2 - 25H2 (89%), Microsoft Windows Server 2012 R2 (89%), Microsoft Windows 10 1709 - 22H2 (89%), Microsoft Windows Server 2022 (89%), Microsoft Windows 10 1909 (87%), Microsoft Windows Server 2012 Data Center (87%), Microsoft Windows Server 2016 (87%), Microsoft Windows 10 1703 or Windows 11 21H2 - 23H2 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: Host: WINTERFELL; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.56.22
+Host is up (0.020s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft IIS httpd 10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5985/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5986/tcp open  ssl/wsmans?
+Aggressive OS guesses: Microsoft Windows 10 1909 - 2004 (94%), Microsoft Windows Server 2019 (93%), Microsoft Windows 11 24H2 - 25H2 (89%), Microsoft Windows Server 2012 R2 (89%), Microsoft Windows Server 2022 (89%), Microsoft Windows 10 1709 - 22H2 (89%), Microsoft Windows 10 1909 (87%), Microsoft Windows Server 2012 Data Center (87%), Microsoft Windows Server 2016 (87%), Microsoft Windows 10 1703 or Windows 11 21H2 - 23H2 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.56.100
+Host is up (0.017s latency).
+All 1000 scanned ports on 192.168.56.100 are in ignored states.
+Not shown: 1000 filtered tcp ports (proto-unreach)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (5 hosts up) scanned in 63.62 seconds

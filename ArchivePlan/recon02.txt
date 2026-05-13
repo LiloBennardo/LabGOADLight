@@ -1,0 +1,50 @@
+──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ dig axfr @192.168.56.10 sevenkingdoms.local
+dig axfr @192.168.56.11 north.sevenkingdoms.local
+
+; <<>> DiG 9.20.15-2-Debian <<>> axfr @192.168.56.10 sevenkingdoms.local
+; (1 server found)
+;; global options: +cmd
+; Transfer failed.
+
+; <<>> DiG 9.20.15-2-Debian <<>> axfr @192.168.56.11 north.sevenkingdoms.local
+; (1 server found)
+;; global options: +cmd
+; Transfer failed.
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ rpcclient -U "" -N 192.168.56.10 -c "enumdomusers"
+rpcclient -U "" -N 192.168.56.11 -c "enumdomusers"
+result was NT_STATUS_ACCESS_DENIED
+user:[Guest] rid:[0x1f5]
+user:[arya.stark] rid:[0x456]
+user:[sansa.stark] rid:[0x45a]
+user:[brandon.stark] rid:[0x45b]
+user:[rickon.stark] rid:[0x45c]
+user:[hodor] rid:[0x45d]
+user:[jon.snow] rid:[0x45e]
+user:[samwell.tarly] rid:[0x45f]
+user:[jeor.mormont] rid:[0x460]
+user:[sql_svc] rid:[0x461]
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ whatweb http://192.168.56.10
+whatweb http://192.168.56.22
+http://192.168.56.10 [200 OK] Country[RESERVED][ZZ], HTTPServer[Microsoft-IIS/10.0], IP[192.168.56.10], Microsoft-IIS[10.0], Title[IIS Windows Server], X-Powered-By[ASP.NET]
+http://192.168.56.22 [200 OK] Country[RESERVED][ZZ], HTTPServer[Microsoft-IIS/10.0], IP[192.168.56.22], Microsoft-IIS[10.0], X-Powered-By[ASP.NET]
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ netexec smb 192.168.56.10 192.168.56.11 192.168.56.22 -u '' -p '' --shares
+SMB         192.168.56.22   445    CASTELBLACK      [*] Windows 10 / Server 2019 Build 17763 x64 (name:CASTELBLACK) (domain:north.sevenkingdoms.local) (signing:False) (SMBv1:False)                                                                                                                                    
+SMB         192.168.56.10   445    KINGSLANDING     [*] Windows 10 / Server 2019 Build 17763 x64 (name:KINGSLANDING) (domain:sevenkingdoms.local) (signing:True) (SMBv1:False)                                                                                                                                          
+SMB         192.168.56.11   445    WINTERFELL       [*] Windows 10 / Server 2019 Build 17763 x64 (name:WINTERFELL) (domain:north.sevenkingdoms.local) (signing:True) (SMBv1:False)                                                                                                                                      
+SMB         192.168.56.22   445    CASTELBLACK      [-] north.sevenkingdoms.local\: STATUS_ACCESS_DENIED 
+SMB         192.168.56.22   445    CASTELBLACK      [-] Error enumerating shares: Error occurs while reading from remote(104)
+SMB         192.168.56.10   445    KINGSLANDING     [+] sevenkingdoms.local\: 
+SMB         192.168.56.10   445    KINGSLANDING     [-] Error enumerating shares: STATUS_ACCESS_DENIED
+SMB         192.168.56.11   445    WINTERFELL       [+] north.sevenkingdoms.local\: 
+SMB         192.168.56.11   445    WINTERFELL       [-] Error enumerating shares: STATUS_ACCESS_DENIED
+Running nxc against 3 targets ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+                                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/GOAD]
+└─$ 
