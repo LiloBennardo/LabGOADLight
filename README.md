@@ -8,6 +8,87 @@
 
 ---
 
+## 🧭 Présentation du projet
+
+### Démarche générale
+
+Ce projet consiste en un pentest complet du lab **GOAD (Game of Active Directory)**, déployé sur une infrastructure virtualisée et accessible via VPN. L'objectif est de cartographier le domaine, identifier les vulnérabilités d'Active Directory, exploiter les chaînes d'attaque (ASREPRoast, credentials en clair dans SYSVOL, Kerberoast, MSSQL RCE, élévation SYSTEM) et documenter chaque étape de manière reproductible.
+
+### Répartition des tâches de l'équipe
+
+| Membre | Rôle principal | Contributions |
+|--------|---------------|---------------|
+| **Lilo** | Lead pentest / Infra | Setup VPN + lab cloud, exploitation CASTELBLACK (jeor.mormont → SYSTEM via GodPotato), rédaction du rapport |
+| **Alicia** | Recon & Enumération | Host discovery, scans Nmap, énumération SMB/LDAP/RPC null sessions, extraction users |
+| **Ilyan** | Exploitation AD | ASREPRoast brandon.stark, crack John, analyse SYSVOL, Kerberoast, BloodHound |
+| **Ayman** | Post-exploitation & Lateral | Dump SAM/LSA, MSSQL RCE, mouvements latéraux, crack DCC2 robb.stark |
+
+### Solutions et choix techniques
+
+| Domaine | Solution retenue | Avantages | Inconvénients |
+|---------|------------------|-----------|---------------|
+| **Lab cible** | GOAD (Orange-Cyberdefense) | Lab AD réaliste, multi-domaines avec trust, vulnérabilités pédagogiques connues | Lourd (RAM/CPU), setup long |
+| **OS attaquant** | Kali Linux 2026 | Tous les outils pentest préinstallés, communauté active | Empreinte disque importante |
+| **Accès réseau** | OpenVPN (lilo.ovpn → tun0) | Chiffré, simple à déployer, indépendant du LAN | Latence supplémentaire |
+| **Recon** | Nmap + netexec (ex-CME) | Standard du marché, scripts NSE étendus, énumération SMB rapide | Nmap bruyant, détectable par IDS |
+| **Énumération AD** | netexec, ldapsearch, rpcclient, BloodHound | Couverture complète (SMB/LDAP/Kerberos), visualisation des chemins d'attaque | BloodHound = collecte volumineuse, signature AV |
+| **Cracking** | John the Ripper + rockyou.txt | Rapide sur AS-REP et NTLM, format flexible | Dépend de la qualité de la wordlist |
+| **Exploitation** | impacket (GetNPUsers, GetUserSPNs, secretsdump), evil-winrm | De facto standard AD pentest, scriptable | Détecté par les EDR récents |
+| **Élévation locale** | GodPotato | Fonctionne sur WS2019 avec SeImpersonatePrivilege | Patché sur versions récentes |
+| **Documentation** | Markdown + Mermaid + export PDF (Chrome headless) | Lisible sur GitHub, versionnable, rendu propre en PDF | Diagrammes Mermaid non rendus dans le PDF actuel |
+
+### Architecture du projet
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                          INTERNET                                    │
+└──────────────────────────────┬───────────────────────────────────────┘
+                               │
+                    ┌──────────▼──────────┐
+                    │   Serveur Cloud     │
+                    │   (héberge le lab)  │
+                    └──────────┬──────────┘
+                               │
+                    ┌──────────▼──────────┐
+                    │   Passerelle VPN    │
+                    │     10.8.0.1        │
+                    └──────────┬──────────┘
+                               │ tun0 (OpenVPN)
+                    ┌──────────▼──────────┐
+                    │  Kali Linux (Attaq.)│
+                    │   tun0 10.8.0.8     │
+                    │  VMware VMnet1      │
+                    └──────────┬──────────┘
+                               │
+                       192.168.56.0/24
+        ┌──────────────────────┼──────────────────────┐
+        │                      │                      │
+┌───────▼────────┐    ┌────────▼───────┐    ┌─────────▼────────┐
+│ KINGSLANDING   │    │  WINTERFELL    │    │   CASTELBLACK    │
+│ 192.168.56.10  │◄──►│ 192.168.56.11  │◄──►│  192.168.56.22   │
+│ DC Forest Root │    │ DC Child       │    │  Membre Server   │
+│ sevenkingdoms  │    │ north.sevenk.. │    │  IIS + MSSQL     │
+│ WS2019 + ADCS  │    │ WS2019         │    │  WS2019 (AV OFF) │
+└────────────────┘    └────────────────┘    └──────────────────┘
+       Trust forest bidirectionnel sevenkingdoms ↔ north
+```
+
+![Schéma d'architecture du lab](img/infra.jpg)
+
+### Fichiers de logs et artefacts
+
+Tous les logs et artefacts produits durant le projet sont versionnés dans le dépôt :
+
+- **`log/Allcommand.txt`** — historique complet des commandes lancées sur Kali
+- **`log/historique_total_kali.txt`** — historique bash brut de la session pentest
+- **`ArchivePlan/`** — notes brutes par phase (recon, enum, exploit, post-exploit)
+- **`ArchiveCapture/`** — captures d'écran horodatées de chaque étape clé
+- **`img/`** — schémas (infrastructure, cartographie BloodHound)
+
+> 📦 Toutes les sources sont disponibles dans le dépôt GitHub : <https://github.com/LiloBennardo/LabGOADLight.git>
+
+---
+
 ## 📋 Sommaire
 
 > ⚠️ **ORDRE CHRONOLOGIQUE RÉEL :** Phase 1 → Phase 3 (début : ASREPRoast + crack) → Phase 2 (enum avec creds) → Phase 3 (suite : exploitation) → Phase 4 → Phase 5
