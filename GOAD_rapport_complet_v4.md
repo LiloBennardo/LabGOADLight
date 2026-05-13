@@ -16,12 +16,14 @@ Ce projet consiste en un pentest complet du lab **GOAD (Game of Active Directory
 
 ### Répartition des tâches de l'équipe
 
+> **Note :** Lilo a porté la très grande majorité du projet (setup, pentest end-to-end, rédaction du rapport). Alicia, Ilyan et Ayman sont venus en support sur certaines phases.
+
 | Membre | Rôle principal | Contributions |
 |--------|---------------|---------------|
-| **Lilo** | Lead pentest / Infra | Setup VPN + lab cloud, exploitation CASTELBLACK (jeor.mormont → SYSTEM via GodPotato), rédaction du rapport |
-| **Alicia** | Recon & Enumération | Host discovery, scans Nmap, énumération SMB/LDAP/RPC null sessions, extraction users |
-| **Ilyan** | Exploitation AD | ASREPRoast brandon.stark, crack John, analyse SYSVOL, Kerberoast, BloodHound |
-| **Ayman** | Post-exploitation & Lateral | Dump SAM/LSA, MSSQL RCE, mouvements latéraux, crack DCC2 robb.stark |
+| **Lilo** | Lead pentest / Infra / Rédaction | Setup VPN + lab cloud, recon complet, ASREPRoast + crack, énumération SYSVOL, exploitation CASTELBLACK (jeor.mormont → SYSTEM via GodPotato), Kerberoast, dump SAM/LSA, mouvements latéraux, BloodHound, rédaction intégrale du rapport et de la documentation |
+| **Alicia** | Support recon | Aide ponctuelle sur l'énumération SMB/LDAP et la relecture des résultats |
+| **Ilyan** | Support exploitation | Aide sur l'analyse des hashes et le crack John |
+| **Ayman** | Support post-exploitation | Aide sur la lecture des dumps et la cartographie BloodHound |
 
 ### Solutions et choix techniques
 
